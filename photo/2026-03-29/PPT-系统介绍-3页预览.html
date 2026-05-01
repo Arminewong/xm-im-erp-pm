@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>星敏-数字员工｜系统介绍（3页预览）</title>
+  <style>
+    :root {
+      --bg: #f8f9fa;
+      --text: #333333;
+      --primary: #0056b3;
+      --accent: #28a745;
+      --highlight: #d9534f;
+      --card: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Helvetica Neue", Arial, "Microsoft YaHei", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      overflow: hidden;
+    }
+
+    .deck {
+      width: 100vw;
+      height: 100vh;
+      position: relative;
+    }
+
+    .slide {
+      width: 100%;
+      height: 100%;
+      display: none;
+      padding: 64px 80px;
+      background: var(--bg);
+    }
+
+    .slide.active {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    h1 {
+      margin: 0 0 20px;
+      color: var(--primary);
+      border-bottom: 2px solid var(--primary);
+      padding-bottom: 10px;
+      font-size: 52px;
+      line-height: 1.2;
+    }
+
+    h2 {
+      margin: 0 0 28px;
+      color: var(--accent);
+      font-size: 42px;
+      line-height: 1.25;
+    }
+
+    h3 {
+      margin: 0 0 20px;
+      color: var(--primary);
+      font-size: 30px;
+      font-weight: 600;
+    }
+
+    p {
+      margin: 0;
+      font-size: 28px;
+      line-height: 1.6;
+    }
+
+    ul, ol {
+      margin: 0;
+      padding-left: 32px;
+      font-size: 28px;
+      line-height: 1.8;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    .cover-subtitle {
+      font-size: 34px;
+      margin: 10px 0 30px;
+      color: #2f3b52;
+      font-weight: 500;
+    }
+
+    .cover-desc {
+      max-width: 1200px;
+      font-size: 30px;
+    }
+
+    .card {
+      background: var(--card);
+      border-radius: 16px;
+      padding: 28px 36px;
+      box-shadow: 0 8px 28px rgba(0, 0, 0, 0.08);
+    }
+
+    .highlight {
+      color: var(--highlight);
+      font-weight: 700;
+    }
+
+    .footer {
+      position: absolute;
+      left: 80px;
+      right: 80px;
+      bottom: 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 18px;
+      color: #607080;
+    }
+
+    .pager {
+      display: inline-flex;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: #aeb8c2;
+    }
+
+    .dot.active {
+      background: var(--primary);
+    }
+
+    .hint {
+      font-size: 16px;
+      color: #7a8793;
+    }
+  </style>
+</head>
+<body>
+  <main class="deck" id="deck">
+    <section class="slide active" data-index="0">
+      <h1>星敏-数字员工 (XM-IM ERP)</h1>
+      <p class="cover-subtitle">基于 IM 的企业协同与客户运营平台</p>
+      <div class="card">
+        <p class="cover-desc">AI 智能体 + 人工坐席协作，覆盖获客、咨询、报价、下单与售后全链路</p>
+      </div>
+    </section>
+
+    <section class="slide" data-index="1">
+      <h2>🎯 企业客户运营的挑战与痛点</h2>
+      <div class="card">
+        <ul>
+          <li><strong>响应滞后：</strong>7x24 小时服务成本高，首答慢导致流失。</li>
+          <li><strong>渠道分散：</strong>网站、二维码、微信、企业微信，数据孤岛严重。</li>
+          <li><strong>业务断层：</strong>咨询无法平滑转化为单据，跟进链路易断裂。</li>
+          <li><strong>效率低下：</strong>客服陷入大量重复性问题解答，高价值跟进不足。</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="slide" data-index="2">
+      <h2>💡 我们的定位与核心价值</h2>
+      <h3>星敏-数字员工：一站式 AI 协同平台</h3>
+      <div class="card">
+        <ol>
+          <li>⚡ <strong>7x24 智能应答</strong>：AI 首屏回复 <span class="highlight">&lt; 2 秒</span>。</li>
+          <li>📉 <strong>降本增效</strong>：AI 处理标准问题，人工聚焦高价值问题。</li>
+          <li>🔄 <strong>业务闭环</strong>：从咨询到订单/工单/报价单全程留痕、可质检。</li>
+          <li>🌐 <strong>多渠道统一</strong>：链接、二维码、微信/企微插件无缝接入。</li>
+        </ol>
+      </div>
+    </section>
+
+    <div class="footer">
+      <div class="hint">操作：←/→ 切换，空格下一页</div>
+      <div class="pager" id="pager"></div>
+    </div>
+  </main>
+
+  <script>
+    const slides = Array.from(document.querySelectorAll(".slide"));
+    const pager = document.getElementById("pager");
+    let currentIndex = 0;
+
+    function renderPager() {
+      pager.innerHTML = "";
+      slides.forEach((_, index) => {
+        const dot = document.createElement("span");
+        dot.className = "dot" + (index === currentIndex ? " active" : "");
+        pager.appendChild(dot);
+      });
+    }
+
+    function showSlide(index) {
+      if (index < 0 || index >= slides.length) {
+        return;
+      }
+      slides[currentIndex].classList.remove("active");
+      currentIndex = index;
+      slides[currentIndex].classList.add("active");
+      renderPager();
+    }
+
+    function nextSlide() {
+      showSlide(Math.min(currentIndex + 1, slides.length - 1));
+    }
+
+    function prevSlide() {
+      showSlide(Math.max(currentIndex - 1, 0));
+    }
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "ArrowRight" || event.key === " ") {
+        nextSlide();
+      } else if (event.key === "ArrowLeft") {
+        prevSlide();
+      }
+    });
+
+    renderPager();
+  </script>
+</body>
+</html>

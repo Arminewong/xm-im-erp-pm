@@ -1,0 +1,498 @@
+/* 星敏官网（index.html / style.css / digital-employee.css）视觉映射到 PPT 预览
+ * 依赖：先引入 ppt-preview.css，再引入本文件；根节点使用 class="ppt-de-site"
+ */
+html.ppt-de-site {
+  --de-primary: #2563eb;
+  --de-primary-light: #3b82f6;
+  --de-primary-dark: #1d4ed8;
+  --de-text: #1e293b;
+  --de-text-muted: #64748b;
+  --de-border: rgba(30, 41, 59, 0.08);
+  --de-bg-card: #f8fafc;
+  --de-bg-card-hover: #f1f5f9;
+  --de-radius: 16px;
+  --de-radius-lg: 24px;
+  --de-shadow: 0 4px 24px rgba(37, 99, 235, 0.08);
+  --de-transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+html.ppt-de-site {
+  --primary: var(--de-primary);
+  --primary-dark: var(--de-primary-dark);
+  --text: var(--de-text);
+  --muted: var(--de-text-muted);
+  --line: var(--de-border);
+  --line-strong: rgba(37, 99, 235, 0.12);
+  --shadow: var(--de-shadow);
+}
+
+html.ppt-de-site body {
+  background: linear-gradient(180deg, #f8fafc 0%, #ffffff 38%, #eef2f7 100%);
+}
+
+html.ppt-de-site .slide {
+  background: #ffffff;
+  border: 1px solid var(--de-border);
+  border-radius: var(--de-radius-lg);
+  box-shadow: var(--de-shadow);
+}
+
+html.ppt-de-site .slide::before {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* 封面：官网 Hero 光斑 */
+html.ppt-de-site .ppt-slide-shapes {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+  border-radius: inherit;
+}
+
+html.ppt-de-site .ppt-shape {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(72px);
+  opacity: 0.22;
+}
+
+html.ppt-de-site .ppt-shape-1 {
+  width: 42%;
+  height: 48%;
+  min-width: 220px;
+  min-height: 220px;
+  background: var(--de-primary);
+  top: -12%;
+  left: -8%;
+  animation: ppt-float 8s ease-in-out infinite;
+}
+
+html.ppt-de-site .ppt-shape-2 {
+  width: 36%;
+  height: 42%;
+  min-width: 180px;
+  min-height: 180px;
+  background: #93c5fd;
+  bottom: -10%;
+  right: -6%;
+  animation: ppt-float 10s ease-in-out infinite reverse;
+}
+
+html.ppt-de-site .ppt-shape-3 {
+  width: 28%;
+  height: 32%;
+  min-width: 140px;
+  background: #bfdbfe;
+  top: 40%;
+  left: 45%;
+  animation: ppt-float 12s ease-in-out infinite;
+}
+
+@keyframes ppt-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-14px);
+  }
+}
+
+html.ppt-de-site .slide-cover .slide-header,
+html.ppt-de-site .slide-cover .slide-cover-grid {
+  position: relative;
+  z-index: 1;
+}
+
+/* 徽章：hero-badge + section-badge */
+html.ppt-de-site .brand-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 16px;
+  border-radius: 20px;
+  background: rgba(37, 99, 235, 0.1);
+  border: 1px solid rgba(37, 99, 235, 0.25);
+  color: var(--de-primary);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+html.ppt-de-site .section-tag {
+  display: inline-block;
+  padding: 4px 14px;
+  border-radius: 8px;
+  background: rgba(37, 99, 235, 0.1);
+  border: 1px solid transparent;
+  color: var(--de-primary);
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* 标题渐变：官网 hero-title */
+html.ppt-de-site .slide-cover-copy h1 {
+  background: linear-gradient(135deg, #1e293b 0%, var(--de-primary) 50%, #60a5fa 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+html.ppt-de-site .content-panel h2 {
+  background: linear-gradient(135deg, #1e293b 0%, var(--de-primary) 52%, #3b82f6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+html.ppt-de-site .cover-subtitle,
+html.ppt-de-site .lead,
+html.ppt-de-site .sublead {
+  color: var(--de-text-muted);
+}
+
+/* Trust strip 风格 chips */
+html.ppt-de-site .metric-chip {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--de-text-muted);
+  padding: 6px 14px;
+  background: #fff;
+  border: 1px solid var(--de-border);
+  border-radius: 999px;
+}
+
+html.ppt-de-site .pill {
+  background: rgba(37, 99, 235, 0.08);
+  border: 1px solid rgba(37, 99, 235, 0.18);
+  color: var(--de-primary-dark);
+}
+
+html.ppt-de-site .de-trust-tagline {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--de-primary-dark);
+  line-height: 1.5;
+}
+
+/* 卡片：官网 .card */
+html.ppt-de-site .feature-card,
+html.ppt-de-site .engine-card,
+html.ppt-de-site .phase-card,
+html.ppt-de-site .pain-card,
+html.ppt-de-site .flow-step,
+html.ppt-de-site .kpi-tile,
+html.ppt-de-site .case-col,
+html.ppt-de-site .mini-card,
+html.ppt-de-site .compare-card,
+html.ppt-de-site .deploy-card {
+  background: var(--de-bg-card);
+  border: 1px solid var(--de-border);
+  border-radius: var(--de-radius-lg);
+  box-shadow: none;
+  position: relative;
+  overflow: hidden;
+  transition: var(--de-transition);
+}
+
+html.ppt-de-site .feature-card::after,
+html.ppt-de-site .engine-card::after,
+html.ppt-de-site .phase-card::after {
+  content: "";
+  position: absolute;
+  top: -48px;
+  right: -48px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  filter: blur(48px);
+  opacity: 0.18;
+  pointer-events: none;
+}
+
+html.ppt-de-site .feature-grid.two .feature-card:nth-child(4n + 1)::after,
+html.ppt-de-site .engine-grid .engine-card:nth-child(6n + 1)::after {
+  background: #3b82f6;
+}
+html.ppt-de-site .feature-grid.two .feature-card:nth-child(4n + 2)::after,
+html.ppt-de-site .engine-grid .engine-card:nth-child(6n + 2)::after {
+  background: #10b981;
+}
+html.ppt-de-site .feature-grid.two .feature-card:nth-child(4n + 3)::after,
+html.ppt-de-site .engine-grid .engine-card:nth-child(6n + 3)::after {
+  background: #8b5cf6;
+}
+html.ppt-de-site .feature-grid.two .feature-card:nth-child(4n)::after,
+html.ppt-de-site .engine-grid .engine-card:nth-child(6n + 4)::after {
+  background: #f97316;
+}
+html.ppt-de-site .engine-grid .engine-card:nth-child(6n + 5)::after {
+  background: #06b6d4;
+}
+html.ppt-de-site .engine-grid .engine-card:nth-child(6n)::after {
+  background: #6366f1;
+}
+
+html.ppt-de-site .engine-card {
+  background: linear-gradient(180deg, #ffffff 0%, var(--de-bg-card) 100%);
+}
+
+html.ppt-de-site .meta-item,
+html.ppt-de-site .summary-box,
+html.ppt-de-site .quote-panel,
+html.ppt-de-site .contact-card {
+  background: var(--de-bg-card);
+  border: 1px solid var(--de-border);
+  border-radius: var(--de-radius-lg);
+}
+
+html.ppt-de-site .slide-kicker {
+  color: var(--de-primary);
+}
+
+html.ppt-de-site .slide-page {
+  color: var(--de-text-muted);
+}
+
+/* 流程步：官网 de-step 编号 */
+html.ppt-de-site .flow-step::before {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--de-primary), var(--de-primary-light));
+  color: #fff;
+  font-size: 15px;
+  box-shadow: 0 4px 16px rgba(37, 99, 235, 0.25);
+  margin-bottom: 12px;
+}
+
+/* 逻辑/侧栏板 */
+html.ppt-de-site .logic-board,
+html.ppt-de-site .hero-board,
+html.ppt-de-site .orbit-board,
+html.ppt-de-site .deployment-board,
+html.ppt-de-site .cta-board {
+  background: linear-gradient(180deg, #ffffff 0%, var(--de-bg-card) 100%);
+  border: 1px solid var(--de-border);
+}
+
+html.ppt-de-site .layer-block {
+  background: #fff;
+  border: 1px solid var(--de-border);
+}
+
+html.ppt-de-site .hero-core {
+  background: linear-gradient(135deg, var(--de-primary-light) 0%, var(--de-primary) 68%, var(--de-primary-dark) 100%);
+}
+
+html.ppt-de-site .code-line {
+  background: rgba(37, 99, 235, 0.06);
+  border: 1px solid rgba(37, 99, 235, 0.1);
+}
+
+/* 封面右侧：官网对话 mockup */
+html.ppt-de-site .ppt-cover-mockup-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  justify-content: center;
+  align-self: stretch;
+  min-height: 0;
+  position: relative;
+  z-index: 1;
+}
+
+html.ppt-de-site .ppt-hero-mockup.de-hero-mockup {
+  max-width: 100%;
+  transform: perspective(760px) rotateY(-2deg) rotateX(1deg);
+  box-shadow: 0 24px 80px rgba(37, 99, 235, 0.12), 0 0 0 1px rgba(37, 99, 235, 0.06);
+}
+
+html.ppt-de-site .ppt-hero-mockup .de-mockup-body {
+  min-height: 0;
+  padding: 12px 12px 14px;
+}
+
+html.ppt-de-site .ppt-hero-mockup .de-mockup-bubble-ai,
+html.ppt-de-site .ppt-hero-mockup .de-mockup-bubble-user {
+  font-size: clamp(11px, 0.95cqw, 13px);
+}
+
+html.ppt-de-site .ppt-hero-flow.de-hero-flow {
+  margin-top: 0;
+  flex-shrink: 0;
+}
+
+html.ppt-de-site .cta-board {
+  padding: 28px;
+}
+
+html.ppt-de-site .cta-core {
+  background: linear-gradient(180deg, #ffffff 0%, var(--de-bg-card) 100%);
+  border: 1px solid var(--de-border);
+  box-shadow: var(--de-shadow);
+}
+
+html.ppt-de-site .cta-core strong {
+  background: linear-gradient(135deg, #1e293b 0%, var(--de-primary) 45%, #60a5fa 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+html.ppt-de-site .cta-checklist li::before {
+  background: rgba(37, 99, 235, 0.12);
+  color: var(--de-primary);
+}
+
+/* case 列标题 */
+html.ppt-de-site .case-col h3 {
+  color: var(--de-primary);
+}
+
+/* 官网 digital-employee：对话 mockup + 业务闭环条 */
+html.ppt-de-site .de-hero-mockup {
+  background: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: transform 0.5s ease;
+}
+
+html.ppt-de-site .de-mockup-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 14px;
+  background: linear-gradient(135deg, var(--de-primary) 0%, var(--de-primary-light) 100%);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+html.ppt-de-site .de-mockup-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+html.ppt-de-site .de-mockup-dot:last-of-type {
+  margin-right: 6px;
+}
+
+html.ppt-de-site .de-mockup-body {
+  padding: 14px 12px;
+  background: #f5f5f8;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+html.ppt-de-site .de-mockup-msg {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  max-width: 94%;
+}
+
+html.ppt-de-site .de-mockup-msg-user {
+  align-self: flex-end;
+  flex-direction: row-reverse;
+}
+
+html.ppt-de-site .de-mockup-avatar {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--de-primary), var(--de-primary-light));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  flex-shrink: 0;
+}
+
+html.ppt-de-site .de-mockup-bubble-ai,
+html.ppt-de-site .de-mockup-bubble-user {
+  padding: 8px 11px;
+  border-radius: 14px;
+  font-size: 12.5px;
+  line-height: 1.55;
+}
+
+html.ppt-de-site .de-mockup-bubble-ai {
+  background: #fff;
+  color: var(--de-text);
+  border-radius: 4px 14px 14px 14px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+html.ppt-de-site .de-mockup-bubble-user {
+  background: linear-gradient(135deg, var(--de-primary), var(--de-primary-light));
+  color: #fff;
+  border-radius: 14px 4px 14px 14px;
+}
+
+html.ppt-de-site .ppt-hero-mockup .de-anim-msg {
+  opacity: 1;
+  transform: none;
+  animation: none;
+}
+
+html.ppt-de-site .de-hero-flow {
+  padding: 12px 14px;
+  background: rgba(37, 99, 235, 0.06);
+  border-radius: 14px;
+  border: 1px solid rgba(37, 99, 235, 0.12);
+}
+
+html.ppt-de-site .de-hero-flow-title {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--de-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 8px;
+}
+
+html.ppt-de-site .de-hero-flow-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+html.ppt-de-site .de-hero-flow-step {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  color: var(--de-text);
+  line-height: 1.45;
+}
+
+html.ppt-de-site .de-hero-flow-step span {
+  flex: 0 0 20px;
+  height: 20px;
+  border-radius: 6px;
+  background: var(--de-primary);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+html.ppt-de-site .hero-hint {
+  margin-top: 14px;
+  font-size: 13px;
+  color: var(--de-text-muted);
+  line-height: 1.6;
+  max-width: 52ch;
+}

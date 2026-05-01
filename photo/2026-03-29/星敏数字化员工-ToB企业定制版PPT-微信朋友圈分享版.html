@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>星敏数字化员工 - ToB 企业定制版微信朋友圈分享资料</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+    :root {
+      --bg: #edf4ff;
+      --paper: #ffffff;
+      --panel: #f6faff;
+      --line: rgba(15, 23, 42, 0.08);
+      --line-strong: rgba(37, 99, 235, 0.14);
+      --text: #0f172a;
+      --muted: #64748b;
+      --primary: #2563eb;
+      --primary-dark: #1d4ed8;
+      --primary-soft: rgba(37, 99, 235, 0.08);
+      --shadow: 0 28px 70px rgba(15, 23, 42, 0.10);
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      font-family: "Noto Sans SC", "Inter", sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(59, 130, 246, 0.10), transparent 24%),
+        radial-gradient(circle at bottom right, rgba(14, 165, 233, 0.12), transparent 24%),
+        var(--bg);
+      color: var(--text);
+    }
+
+    body {
+      padding: 28px 0 60px;
+      min-width: 1120px;
+    }
+
+    .album {
+      width: 1080px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 28px;
+    }
+
+    .page {
+      width: 1080px;
+      height: 1080px;
+      position: relative;
+      overflow: hidden;
+      border-radius: 40px;
+      background: linear-gradient(180deg, #ffffff 0%, #fbfdff 100%);
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+      padding: 52px;
+    }
+
+    .page::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      background:
+        radial-gradient(circle at 0% 0%, rgba(59, 130, 246, 0.10), transparent 24%),
+        radial-gradient(circle at 100% 100%, rgba(14, 165, 233, 0.08), transparent 24%);
+    }
+
+    .page > * { position: relative; z-index: 1; }
+
+    .page-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 26px;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: var(--primary-soft);
+      border: 1px solid var(--line-strong);
+      color: var(--primary);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+    }
+
+    .page-no {
+      font-size: 13px;
+      color: var(--muted);
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    h1, h2, h3, p { margin: 0; }
+
+    .cover {
+      background:
+        radial-gradient(circle at 18% 20%, rgba(59, 130, 246, 0.22), transparent 26%),
+        radial-gradient(circle at 85% 18%, rgba(14, 165, 233, 0.18), transparent 22%),
+        linear-gradient(135deg, #f8fbff 0%, #eef5ff 100%);
+    }
+
+    .cover-grid {
+      height: calc(100% - 44px);
+      display: grid;
+      grid-template-rows: auto auto 1fr auto;
+      gap: 24px;
+    }
+
+    .brand {
+      font-size: 16px;
+      font-weight: 800;
+      color: var(--primary-dark);
+      letter-spacing: 0.08em;
+    }
+
+    .cover-title {
+      font-size: 66px;
+      line-height: 1.1;
+      letter-spacing: -0.04em;
+      max-width: 880px;
+    }
+
+    .cover-title span { color: var(--primary); }
+
+    .cover-subtitle {
+      max-width: 860px;
+      font-size: 22px;
+      line-height: 1.75;
+      color: var(--muted);
+    }
+
+    .trust-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      max-width: 660px;
+    }
+
+    .trust-chip {
+      padding: 10px 16px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.84);
+      border: 1px solid var(--line-strong);
+      color: var(--primary-dark);
+      font-size: 15px;
+      font-weight: 700;
+    }
+
+    .cover-core {
+      position: absolute;
+      right: 88px;
+      bottom: 108px;
+      width: 278px;
+      height: 278px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #fff;
+      font-size: 30px;
+      font-weight: 800;
+      line-height: 1.32;
+      background: radial-gradient(circle at 30% 30%, #7dd3fc 0%, #2563eb 66%, #1d4ed8 100%);
+      box-shadow: 0 28px 60px rgba(37, 99, 235, 0.28);
+    }
+
+    .cover-orbit::before,
+    .cover-orbit::after {
+      content: "";
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      border-radius: 999px;
+      border: 1px dashed rgba(37, 99, 235, 0.18);
+    }
+
+    .cover-orbit::before {
+      width: 430px;
+      height: 430px;
+      right: 0;
+      bottom: 30px;
+    }
+
+    .cover-orbit::after {
+      width: 560px;
+      height: 560px;
+      right: -70px;
+      bottom: -34px;
+    }
+
+    .orbit-chip {
+      position: absolute;
+      padding: 10px 14px;
+      border-radius: 14px;
+      background: rgba(255, 255, 255, 0.92);
+      border: 1px solid var(--line-strong);
+      box-shadow: 0 12px 24px rgba(15, 23, 42, 0.05);
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    .orbit-chip.c1 { right: 146px; top: 458px; }
+    .orbit-chip.c2 { right: 24px; top: 555px; }
+    .orbit-chip.c3 { right: 232px; top: 632px; }
+    .orbit-chip.c4 { right: 48px; top: 748px; }
+
+    .section-title {
+      font-size: 54px;
+      line-height: 1.18;
+      letter-spacing: -0.04em;
+      margin-bottom: 16px;
+      max-width: 900px;
+    }
+
+    .section-desc {
+      font-size: 22px;
+      line-height: 1.78;
+      color: var(--muted);
+      max-width: 920px;
+      margin-bottom: 24px;
+    }
+
+    .grid-2, .grid-3 {
+      display: grid;
+      gap: 16px;
+    }
+
+    .grid-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .grid-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+
+    .card, .soft-card, .step-card, .metric-card, .point-card {
+      border-radius: 24px;
+      border: 1px solid var(--line);
+      background: #fff;
+      box-shadow: 0 14px 30px rgba(15, 23, 42, 0.04);
+      padding: 22px 22px 20px;
+    }
+
+    .soft-card {
+      background: linear-gradient(180deg, #f9fbff 0%, #f3f7ff 100%);
+      border-color: var(--line-strong);
+    }
+
+    .card h3, .soft-card h3, .step-card h3, .metric-card h3, .point-card h3 {
+      font-size: 24px;
+      line-height: 1.4;
+      margin-bottom: 10px;
+    }
+
+    .card p, .soft-card p, .step-card p, .metric-card p, .point-card p {
+      color: var(--muted);
+      font-size: 17px;
+      line-height: 1.78;
+    }
+
+    .mini-tag {
+      display: inline-block;
+      margin-bottom: 8px;
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      color: var(--primary);
+      text-transform: uppercase;
+    }
+
+    .metric-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+      margin-top: 6px;
+    }
+
+    .metric-card strong {
+      display: block;
+      margin-bottom: 10px;
+      font-size: 40px;
+      line-height: 1;
+      color: var(--primary-dark);
+    }
+
+    .metric-card span {
+      display: block;
+      margin-bottom: 8px;
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    .flow-grid {
+      display: grid;
+      gap: 14px;
+    }
+
+    .flow-grid .step-card {
+      display: grid;
+      grid-template-columns: 74px 1fr;
+      gap: 16px;
+      align-items: start;
+      padding: 16px 18px;
+    }
+
+    .step-no {
+      width: 74px;
+      height: 74px;
+      border-radius: 22px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      font-weight: 800;
+      color: var(--primary-dark);
+      background: linear-gradient(180deg, #eef5ff 0%, #dbeafe 100%);
+      border: 1px solid var(--line-strong);
+    }
+
+    .pill-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 12px;
+    }
+
+    .pill {
+      padding: 8px 12px;
+      border-radius: 999px;
+      font-size: 14px;
+      font-weight: 700;
+      border: 1px solid var(--line-strong);
+      background: #fff;
+      color: var(--primary-dark);
+    }
+
+    .quote {
+      margin-top: 18px;
+      padding: 16px 18px;
+      border-radius: 18px;
+      background: linear-gradient(180deg, #f9fbff 0%, #f2f7ff 100%);
+      border: 1px solid var(--line-strong);
+      color: var(--muted);
+      font-size: 16px;
+      line-height: 1.8;
+    }
+
+    .cta-page {
+      background:
+        radial-gradient(circle at 14% 18%, rgba(59, 130, 246, 0.22), transparent 24%),
+        radial-gradient(circle at 86% 20%, rgba(14, 165, 233, 0.18), transparent 22%),
+        linear-gradient(180deg, #f8fbff 0%, #eef5ff 100%);
+    }
+
+    .contact-wrap {
+      display: grid;
+      grid-template-columns: 1fr 280px;
+      gap: 22px;
+      align-items: end;
+      margin-top: 16px;
+    }
+
+    .contact-panel {
+      display: grid;
+      gap: 14px;
+    }
+
+    .contact-item {
+      padding: 18px 20px;
+      border-radius: 22px;
+      background: rgba(255, 255, 255, 0.88);
+      border: 1px solid var(--line-strong);
+    }
+
+    .contact-item strong {
+      display: block;
+      font-size: 22px;
+      line-height: 1.55;
+      color: var(--text);
+      word-break: break-all;
+    }
+
+    .qr-panel {
+      padding: 18px;
+      border-radius: 26px;
+      background: rgba(255, 255, 255, 0.92);
+      border: 1px solid var(--line-strong);
+      text-align: center;
+    }
+
+    .qr-panel img {
+      width: 100%;
+      border-radius: 22px;
+      background: #fff;
+      padding: 8px;
+      border: 1px solid var(--line);
+      display: block;
+      margin-bottom: 12px;
+    }
+
+    .qr-panel p {
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.7;
+    }
+  </style>
+</head>
+<body>
+  <main class="album">
+    <section class="page cover">
+      <div class="page-top">
+        <span class="badge">ToB 企业定制版 / AI 驱动 / 7×24 在线</span>
+        <span class="page-no">01 / 10</span>
+      </div>
+      <div class="cover-grid">
+        <div class="brand">星敏 · 数字化员工</div>
+        <h1 class="cover-title">ToB 企业定制版<br /><span>微信朋友圈分享资料</span></h1>
+        <p class="cover-subtitle">基于 IM 的企业协同与客户运营平台，连接 AI 智能体、人工坐席与业务工作流，覆盖获客、咨询、报价、下单与售后全链路。</p>
+        <div class="trust-row">
+          <span class="trust-chip">AI 解决率目标 ≥ 60%</span>
+          <span class="trust-chip">AI 首响 &lt; 2 秒</span>
+          <span class="trust-chip">人工接入 &lt; 60 秒</span>
+          <span class="trust-chip">人均承载能力 3×</span>
+        </div>
+      </div>
+      <div class="cover-orbit"></div>
+      <div class="cover-core">获客<br />咨询<br />转化闭环</div>
+      <div class="orbit-chip c1">入口统一</div>
+      <div class="orbit-chip c2">智能接待</div>
+      <div class="orbit-chip c3">流程执行</div>
+      <div class="orbit-chip c4">人机协同</div>
+    </section>
+
+    <section class="page">
+      <div class="page-top">
+        <span class="badge">定位与价值</span>
+        <span class="page-no">02 / 10</span>
+      </div>
+      <h2 class="section-title">一句话定位：<br />基于 IM 的企业协同与客户运营平台</h2>
+      <p class="section-desc">智能体先接待、流程可编排、关键节点转人工；会话与业务单据联动，既能提升响应效率，也能沉淀业务数据。</p>
+      <div class="grid-2">
+        <div class="card">
+          <span class="mini-tag">价值 01</span>
+          <h3>7×24 智能接待</h3>
+          <p>先把客户问题接住，减少等待与流失，保障高峰时段服务稳定。</p>
+        </div>
+        <div class="card">
+          <span class="mini-tag">价值 02</span>
+          <h3>降本增效</h3>
+          <p>标准问题自动处理，人工聚焦复杂场景与高价值客户沟通。</p>
+        </div>
+        <div class="card">
+          <span class="mini-tag">价值 03</span>
+          <h3>业务闭环</h3>
+          <p>咨询到报价、订单、工单全程可追踪，方便质检与复盘优化。</p>
+        </div>
+        <div class="card">
+          <span class="mini-tag">价值 04</span>
+          <h3>多渠道统一</h3>
+          <p>官网、二维码、链接、插件入口统一管理，体验一致、运维集中。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="page">
+      <div class="page-top">
+        <span class="badge">能力地图</span>
+        <span class="page-no">03 / 10</span>
+      </div>
+      <h2 class="section-title">六大能力一体协作，<br />从「会聊」到「能办」</h2>
+      <p class="section-desc">底层按「对话—知识—流程—渠道—租户—运维」分层建设，可先做 MVP 再平滑演进。</p>
+      <div class="grid-3">
+        <div class="card"><span class="mini-tag">AI</span><h3>AI 智能体</h3><p>Prompt、知识库、转人工策略、流式回复。</p></div>
+        <div class="card"><span class="mini-tag">IM</span><h3>自研 IM 通信</h3><p>WebSocket、历史消息、文件发送、ACK 去重。</p></div>
+        <div class="card"><span class="mini-tag">KB</span><h3>知识库管理</h3><p>QA 管理、上下文注入，RAG 能力预留。</p></div>
+        <div class="card"><span class="mini-tag">FLOW</span><h3>工作流引擎</h3><p>意图判断、API 调用、条件分支、消息发送。</p></div>
+        <div class="card"><span class="mini-tag">ENTRY</span><h3>入口与渠道</h3><p>二维码、链接、插件入口、欢迎语与菜单配置。</p></div>
+        <div class="card"><span class="mini-tag">OPS</span><h3>多租户与部署</h3><p>tenant_id 强隔离、JWT 鉴权、单机起步可扩容。</p></div>
+      </div>
+    </section>
+
+    <section class="page">
+      <div class="page-top">
+        <span class="badge">典型流程</span>
+        <span class="page-no">04 / 10</span>
+      </div>
+      <h2 class="section-title">从收到咨询到完成业务，<br />形成五步标准化闭环</h2>
+      <p class="section-desc">用户感知“秒回 + 能办事”，运营侧可配置规则、入口与转人工策略。</p>
+      <div class="flow-grid">
+        <div class="step-card"><div class="step-no">01</div><div><h3>多渠道进入</h3><p>官网、二维码、链接、插件入口统一接入并绑定租户上下文。</p></div></div>
+        <div class="step-card"><div class="step-no">02</div><div><h3>AI 首次响应</h3><p>流式输出首答，结合知识库快速给结论和下一步引导。</p></div></div>
+        <div class="step-card"><div class="step-no">03</div><div><h3>追问与工作流</h3><p>补齐业务参数，触发 API / 规则引擎执行标准流程动作。</p></div></div>
+        <div class="step-card"><div class="step-no">04</div><div><h3>结果输出与转人工</h3><p>输出报价/工单/订单结果，复杂问题按规则无缝交接人工。</p></div></div>
+        <div class="step-card"><div class="step-no">05</div><div><h3>留痕与持续优化</h3><p>全链路留痕，支持质检、报表、入口效果分析与持续调优。</p></div></div>
+      </div>
+    </section>
+
+    <section class="page">
+      <div class="page-top">
+        <span class="badge">模块功能清单（1/2）</span>
+        <span class="page-no">05 / 10</span>
+      </div>
+      <h2 class="section-title">客户端、会话、AI 与知识库</h2>
+      <p class="section-desc">兼顾 C 端体验、消息可靠性与 B 端运营可配置能力。</p>
+      <div class="grid-2">
+        <div class="soft-card">
+          <span class="mini-tag">客户端</span>
+          <h3>H5 / 小程序接待体验</h3>
+          <p>自动登录、历史消息、流式打字、图片/文件发送、弱网重连。</p>
+        </div>
+        <div class="soft-card">
+          <span class="mini-tag">会话与消息</span>
+          <h3>状态机 + 幂等保障</h3>
+          <p>ai_serving / waiting / human_serving / closed；ACK 与去重降低重复消息。</p>
+        </div>
+        <div class="soft-card">
+          <span class="mini-tag">AI 智能体</span>
+          <h3>可配置策略与转人工</h3>
+          <p>模型参数、Prompt、知识关联、流式输出与升级规则统一配置。</p>
+        </div>
+        <div class="soft-card">
+          <span class="mini-tag">知识库</span>
+          <h3>可维护的企业知识底座</h3>
+          <p>知识库/QA CRUD、上下文注入；后续可升级 RAG 检索增强。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="page">
+      <div class="page-top">
+        <span class="badge">模块功能清单（2/2）</span>
+        <span class="page-no">06 / 10</span>
+      </div>
+      <h2 class="section-title">工作流、入口、CRM 与业务单据</h2>
+      <p class="section-desc">把“会回答”接入“能下单、能派单、能留痕”的业务系统。</p>
+      <div class="grid-3">
+        <div class="card"><span class="mini-tag">Flow</span><h3>工作流</h3><p>意图判断、API 调用、消息发送、分支控制、转人工节点。</p></div>
+        <div class="card"><span class="mini-tag">Entry</span><h3>入口管理</h3><p>入口编码、类型、欢迎语、菜单按钮、智能体绑定。</p></div>
+        <div class="card"><span class="mini-tag">CRM</span><h3>客户档案与标签</h3><p>客户画像、互动历史、分层跟进，辅助销售与客服协同。</p></div>
+        <div class="card"><span class="mini-tag">Quote</span><h3>报价模板</h3><p>模板配置、公式计算、PDF 输出（卡片化回传可迭代增强）。</p></div>
+        <div class="card"><span class="mini-tag">Order</span><h3>订单/工单</h3><p>单据生命周期管理，状态同步到会话，提升协作透明度。</p></div>
+        <div class="card"><span class="mini-tag">Plugin</span><h3>插件与集成</h3><p>支持微信/企微插件接入，与现有 CRM/订单系统对接。</p></div>
+      </div>
+    </section>
+
+    <section class="page">
+      <div class="page-top">
+        <span class="badge">架构与部署</span>
+        <span class="page-no">07 / 10</span>
+      </div>
+      <h2 class="section-title">技术栈与部署路径：<br />单机起步，可平滑演进</h2>
+      <p class="section-desc">前后端分离 + 插件独立域；先跑通主链路，再按业务量横向扩展。</p>
+      <div class="grid-2">
+        <div class="card">
+          <span class="mini-tag">技术栈</span>
+          <h3>Spring Boot + Redis + MySQL</h3>
+          <p>客户端基于 uni-app + Vue3；管理/业务 API、IM REST 与 WebSocket 分路径暴露。</p>
+        </div>
+        <div class="card">
+          <span class="mini-tag">部署</span>
+          <h3>Nginx + 应用 + 缓存 + 数据库</h3>
+          <p>单机支持试点；后续可扩展为 SLB、多实例、Redis 集群、RDS、MQ。</p>
+        </div>
+        <div class="soft-card">
+          <span class="mini-tag">接口示例</span>
+          <h3>/api/admin /v1/im/**</h3>
+          <p>WebSocket：/api/admin/ws/im?token=JWT；插件端：/v1/plugin/**。</p>
+        </div>
+        <div class="soft-card">
+          <span class="mini-tag">运维建议</span>
+          <h3>发布、观测、备份</h3>
+          <p>建议接入 APM、日志检索、告警；MySQL 快照与配置纳管满足恢复演练。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="page">
+      <div class="page-top">
+        <span class="badge">安全与合规</span>
+        <span class="page-no">08 / 10</span>
+      </div>
+      <h2 class="section-title">传输、隔离与数据保护，<br />满足企业级接入要求</h2>
+      <p class="section-desc">多租户从数据模型到查询链路强制隔离；敏感字段与审计策略可按行业要求收紧。</p>
+      <div class="grid-2">
+        <div class="card"><span class="mini-tag">01</span><h3>全链路 HTTPS / WSS</h3><p>管理端、插件页、长连接统一加密，降低中间人风险。</p></div>
+        <div class="card"><span class="mini-tag">02</span><h3>tenant_id 强隔离</h3><p>JWT 声明租户上下文，防止串租与越权查询。</p></div>
+        <div class="card"><span class="mini-tag">03</span><h3>敏感数据治理</h3><p>手机号等字段加密存储，展示侧按需脱敏。</p></div>
+        <div class="card"><span class="mini-tag">04</span><h3>上线安全清单</h3><p>证书、依赖补丁、日志审计与权限回收纳入发版流程。</p></div>
+      </div>
+    </section>
+
+    <section class="page">
+      <div class="page-top">
+        <span class="badge">KPI 与路线图</span>
+        <span class="page-no">09 / 10</span>
+      </div>
+      <h2 class="section-title">建议观测指标 + 分阶段交付策略</h2>
+      <p class="section-desc">上线后按周看趋势：解决率、转人工率、入口转化率联动优化；按业务优先级分阶段建设。</p>
+      <div class="metric-grid">
+        <div class="metric-card"><strong>≥ 60%</strong><span>AI 解决率</span><p>标准问题尽量机器闭环，人工聚焦复杂场景。</p></div>
+        <div class="metric-card"><strong>&lt; 2 秒</strong><span>AI 首次响应</span><p>提升首包体验，降低客户等待焦虑。</p></div>
+        <div class="metric-card"><strong>&lt; 60 秒</strong><span>人工接入</span><p>转人工 SLA 可量化，保障高价值客户体验。</p></div>
+        <div class="metric-card"><strong>3 ×</strong><span>人均承载提升</span><p>通过自动化释放重复劳动，提升团队人效。</p></div>
+      </div>
+      <div class="quote">MVP 先跑通「接待—工作流—转人工—留痕」主链路；二期增强语音/视频、可视化编排、RAG、质检报表与规模化治理能力。</div>
+    </section>
+
+    <section class="page cta-page">
+      <div class="page-top">
+        <span class="badge">联系与演示</span>
+        <span class="page-no">10 / 10</span>
+      </div>
+      <h2 class="section-title">准备好让数字员工正式上岗了吗？</h2>
+      <p class="section-desc">建议从一个高频场景先落地（如官网咨询或报价受理），快速验证价值后复制到更多业务线。</p>
+      <div class="pill-row">
+        <span class="pill">官网演示环境</span>
+        <span class="pill">管理后台能力演示</span>
+        <span class="pill">SSO / CRM / 订单接口评估</span>
+        <span class="pill">公有云 / 专属 / 私有化部署</span>
+      </div>
+      <div class="contact-wrap">
+        <div class="contact-panel">
+          <div class="contact-item">
+            <span class="mini-tag">邮箱</span>
+            <strong>arminewong@starmin.cn</strong>
+          </div>
+          <div class="contact-item">
+            <span class="mini-tag">电话 / 微信</span>
+            <strong>18620588898</strong>
+          </div>
+          <div class="contact-item">
+            <span class="mini-tag">说明</span>
+            <strong>可按行业与客户规模，提供定制化演示脚本与实施路线图。</strong>
+          </div>
+        </div>
+        <div class="qr-panel">
+          <img src="./assets/armin-wechat.png" alt="微信二维码" />
+          <p>扫码添加微信<br />便于咨询合作与预约演示</p>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
