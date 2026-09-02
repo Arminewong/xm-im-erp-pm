@@ -1,0 +1,335 @@
+{"kind":"deck","id":"pr/vnvncp","name":"Deck"}
+{"kind":"layout","layoutId":"623410c1-7592-47d1-8602-50d36e6a7bf0","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"7a81ed5e-ec14-4aab-8532-d7d3a8655c18","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/if6xep","slide":1,"title":"STARMIN · AI NATIVE ERP","textShapes":7}
+{"kind":"shape","id":"sh/alg7yxgf","slide":1,"bbox":[748,0,532,720]}
+{"kind":"textbox","id":"sh/wnip0ny5","slide":1,"text":"STARMIN · AI NATIVE ERP","textPreview":"STARMIN · AI NATIVE ERP","textChars":23,"textLines":1,"bbox":[72,84,420,28]}
+{"kind":"textbox","id":"sh/nip8nixo","slide":1,"text":"星敏 AI ERP","textPreview":"星敏 AI ERP","textChars":9,"textLines":1,"bbox":[72,150,520,82]}
+{"kind":"textbox","id":"sh/mhg7udg3","slide":1,"text":"让企业从“人找数据”\n变成“AI 找数据、办业务”","textPreview":"让企业从“人找数据” | 变成“AI 找数据、办业务”","textChars":25,"textLines":2,"bbox":[72,250,530,116]}
+{"kind":"textbox","id":"sh/9k7qpsfu","slide":1,"text":"客户 · 销售 · 采购 · 库存 · 应收 · 项目 · 售后","textPreview":"客户 · 销售 · 采购 · 库存 · 应收 · 项目 · 售后","textChars":32,"textLines":1,"bbox":[72,398,520,42]}
+{"kind":"shape","id":"sh/8jypwny9","slide":1,"bbox":[72,474,178,46]}
+{"kind":"textbox","id":"sh/zu5ojixs","slide":1,"text":"企业经营，直接问 AI","textPreview":"企业经营，直接问 AI","textChars":11,"textLines":1,"bbox":[88,482,146,30]}
+{"kind":"textbox","id":"sh/ytw7qdg7","slide":1,"text":"面向贸易、设备销售和工业品企业","textPreview":"面向贸易、设备销售和工业品企业","textChars":15,"textLines":1,"bbox":[72,548,430,30]}
+{"kind":"textbox","id":"sh/kvy50zit","slide":1,"text":"广州星敏智能科技有限公司","textPreview":"广州星敏智能科技有限公司","textChars":12,"textLines":1,"bbox":[72,650,330,20]}
+{"kind":"image","id":"im/4vqlofeh","slide":1,"name":"","geometry":"roundRect","alt":"客户到回款业务链围绕 AI ERP 中心连接","bbox":[630,105,630,500]}
+{"kind":"notes","id":"nt/if6xep","slide":1,"text":"开场不讲菜单，先说明这是一套把业务数据连起来、让老板和员工使用 AI 的企业经营系统。\n\n[Sources]\n- X:/Work/xm-im-erp-pm/docs/销售与营销/10-销售PPT逐页完整内容稿.md\n- X:/Work/xm-im-erp-pm/docs/销售与营销/assets/ppt/connected-business-chain.png (built-in image_gen)"}
+{"kind":"slide","id":"sl/x7uq5b","slide":2,"title":"每天的真实摩擦","textShapes":7}
+{"kind":"shape","id":"sh/x43q1snu","slide":2,"bbox":[0,0,610,720]}
+{"kind":"textbox","id":"sh/c3upsnmp","slide":2,"text":"每天的真实摩擦","textPreview":"每天的真实摩擦","textChars":7,"textLines":1,"bbox":[70,34,500,24]}
+{"kind":"textbox","id":"sh/z6l83250","slide":2,"text":"客户在微信里，订单在 Excel 里，库存还要到处问？","textPreview":"客户在微信里，订单在 Excel 里，库存还要到处问？","textChars":27,"textLines":1,"bbox":[70,66,1060,68]}
+{"kind":"textbox","id":"sh/y5c7ux4f","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1170,46,44,24]}
+{"kind":"shape","id":"sh/ls3q5cn6","slide":2,"bbox":[70,145,74,5]}
+{"kind":"textbox","id":"sh/k7u9w7ml","slide":2,"text":"客户资料散在员工微信、通讯录和表格\n报价、订单、采购反复复制和录入\n账面有库存，接单后才发现已被预留\n应收逾期和项目风险发现得太晚\n系统里有数据，老板仍然要等报表","textPreview":"客户资料散在员工微信、通讯录和表格 | 报价、订单、采购反复复制和录入 | 账面有库存，接单后才发现已被预留 | 应收逾期和项目风险发现得太晚 | 系统里有数据，老板仍然要等报表","textChars":81,"textLines":5,"bbox":[72,190,470,260]}
+{"kind":"shape","id":"sh/fa18ry5w","slide":2,"bbox":[72,490,470,90]}
+{"kind":"textbox","id":"sh/e987idob","slide":2,"text":"问题不是缺少一张表，\n而是客户到回款没有形成连续业务链。","textPreview":"问题不是缺少一张表， | 而是客户到回款没有形成连续业务链。","textChars":28,"textLines":2,"bbox":[94,505,425,60]}
+{"kind":"textbox","id":"sh/cru9gjet","slide":2,"text":"星敏 AI ERP · erp.starmin.cn","textPreview":"星敏 AI ERP · erp.starmin.cn","textChars":26,"textLines":1,"bbox":[70,688,300,16]}
+{"kind":"textbox","id":"sh/ds3qpove","slide":2,"text":"2 / 13","textPreview":"2 / 13","textChars":6,"textLines":1,"bbox":[1120,688,90,16]}
+{"kind":"image","id":"im/v69c7ixo","slide":2,"name":"","geometry":"roundRect","alt":"企业员工在分散数据与系统之间协调工作","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/x7uq5b","slide":2,"text":"询问客户：这五种情况里，哪两种最接近您现在的工作？根据答案调整后续演示重点。\n\n[Sources]\n- X:/Work/xm-im-erp-pm/docs/销售与营销/10-销售PPT逐页完整内容稿.md\n- X:/Work/xm-im-erp-pm/docs/销售与营销/assets/ppt/data-fragmentation.png (built-in image_gen)"}
+{"kind":"slide","id":"sl/hipnyz","slide":3,"title":"业务底座","textShapes":11}
+{"kind":"textbox","id":"sh/kzal4zmt","slide":3,"text":"业务底座","textPreview":"业务底座","textChars":4,"textLines":1,"bbox":[70,34,500,24]}
+{"kind":"textbox","id":"sh/jy14bulo","slide":3,"text":"同一份业务数据，贯穿客户到回款","textPreview":"同一份业务数据，贯穿客户到回款","textChars":15,"textLines":1,"bbox":[70,66,1060,68]}
+{"kind":"textbox","id":"sh/ixs32p43","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1170,46,44,24]}
+{"kind":"shape","id":"sh/xwjm9k3i","slide":3,"bbox":[70,145,74,5]}
+{"kind":"textbox","id":"sh/va147alc","slide":3,"text":"数据只录一次","textPreview":"数据只录一次","textChars":6,"textLines":1,"bbox":[870,195,300,34]}
+{"kind":"textbox","id":"sh/a983yp4r","slide":3,"text":"客户和商品在后续环节持续复用","textPreview":"客户和商品在后续环节持续复用","textChars":14,"textLines":1,"bbox":[870,235,300,54]}
+{"kind":"shape","id":"sh/98zm5k36","slide":3,"bbox":[870,310,300,1]}
+{"kind":"textbox","id":"sh/o7qlwfm1","slide":3,"text":"跨部门看同一进度","textPreview":"跨部门看同一进度","textChars":8,"textLines":1,"bbox":[870,340,300,34]}
+{"kind":"textbox","id":"sh/ixgba5k7","slide":3,"text":"销售、采购、仓库、财务与项目不再各自解释","textPreview":"销售、采购、仓库、财务与项目不再各自解释","textChars":20,"textLines":1,"bbox":[870,380,300,60]}
+{"kind":"shape","id":"sh/jypcja1s","slide":3,"bbox":[870,462,300,1]}
+{"kind":"textbox","id":"sh/kzytcf2d","slide":3,"text":"AI 贯穿全部节点","textPreview":"AI 贯穿全部节点","textChars":9,"textLines":1,"bbox":[870,490,300,34]}
+{"kind":"textbox","id":"sh/507ulkjy","slide":3,"text":"查询 → 判断 → 员工确认后的业务动作","textPreview":"查询 → 判断 → 员工确认后的业务动作","textChars":20,"textLines":1,"bbox":[870,530,300,54]}
+{"kind":"textbox","id":"sh/a9gb65kb","slide":3,"text":"星敏 AI ERP · erp.starmin.cn","textPreview":"星敏 AI ERP · erp.starmin.cn","textChars":26,"textLines":1,"bbox":[70,688,300,16]}
+{"kind":"textbox","id":"sh/vapcfa1w","slide":3,"text":"3 / 13","textPreview":"3 / 13","textChars":6,"textLines":1,"bbox":[1120,688,90,16]}
+{"kind":"image","id":"im/lkn6tcr6","slide":3,"name":"","geometry":"roundRect","alt":"客户、订单、采购、库存、应收和售后连接到 AI ERP","bbox":[64,170,760,460]}
+{"kind":"notes","id":"nt/hipnyz","slide":3,"text":"强调星敏不是悬浮聊天框，而是连接客户、报价、订单、采购、库存、发货、应收、项目和售后的业务底座。\n\n[Sources]\n- X:/Work/xm-im-erp-pm/docs/销售与营销/10-销售PPT逐页完整内容稿.md\n- X:/Work/xm-im-erp-pm/docs/销售与营销/assets/ppt/connected-business-chain.png (built-in image_gen)"}
+{"kind":"slide","id":"sl/danxfx","slide":4,"title":"AI 经营入口","textShapes":21}
+{"kind":"textbox","id":"sh/ze1wvqlc","slide":4,"text":"AI 经营入口","textPreview":"AI 经营入口","textChars":7,"textLines":1,"bbox":[70,34,500,24]}
+{"kind":"textbox","id":"sh/0faxovmx","slide":4,"text":"一句话，先看今天最需要处理的经营风险","textPreview":"一句话，先看今天最需要处理的经营风险","textChars":18,"textLines":1,"bbox":[70,66,1060,68]}
+{"kind":"textbox","id":"sh/l0jex032","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1170,46,44,24]}
+{"kind":"shape","id":"sh/m1sfq54n","slide":4,"bbox":[70,145,74,5]}
+{"kind":"shape","id":"sh/n21wzal8","slide":4,"bbox":[70,178,520,388]}
+{"kind":"textbox","id":"sh/83axsfmt","slide":4,"text":"你","textPreview":"你","textChars":1,"textLines":1,"bbox":[98,204,40,26]}
+{"kind":"shape","id":"sh/94je103e","slide":4,"bbox":[98,244,450,72]}
+{"kind":"textbox","id":"sh/25ove14j","slide":4,"text":"公司今天有什么需要我注意的？","textPreview":"公司今天有什么需要我注意的？","textChars":14,"textLines":1,"bbox":[120,260,405,40]}
+{"kind":"textbox","id":"sh/36xwn654","slide":4,"text":"AI","textPreview":"AI","textChars":2,"textLines":1,"bbox":[98,346,40,26]}
+{"kind":"textbox","id":"sh/r658ru50","slide":4,"text":"按影响优先级汇总销售、库存、应收、项目和售后，\n每个结论都可以继续查看来源明细。","textPreview":"按影响优先级汇总销售、库存、应收、项目和售后， | 每个结论都可以继续查看来源明细。","textChars":40,"textLines":2,"bbox":[98,382,444,100]}
+{"kind":"shape","id":"sh/65wryp4f","slide":4,"bbox":[98,500,186,38]}
+{"kind":"textbox","id":"sh/t8nqtkn6","slide":4,"text":"查看来源明细","textPreview":"查看来源明细","textChars":6,"textLines":1,"bbox":[116,506,150,25]}
+{"kind":"shape","id":"sh/s7e90fml","slide":4,"bbox":[650,180,500,66]}
+{"kind":"shape","id":"sh/j258na5o","slide":4,"bbox":[650,180,8,66]}
+{"kind":"textbox","id":"sh/i1w7u54j","slide":4,"text":"逾期应收","textPreview":"逾期应收","textChars":4,"textLines":1,"bbox":[680,190,170,22]}
+{"kind":"textbox","id":"sh/54nqpknu","slide":4,"text":"5 笔 · ¥196,800","textPreview":"5 笔 · ¥196,800","textChars":14,"textLines":1,"bbox":[850,188,270,30]}
+{"kind":"shape","id":"sh/43epwfm9","slide":4,"bbox":[650,264,500,66]}
+{"kind":"shape","id":"sh/vyl8ja5s","slide":4,"bbox":[650,264,8,66]}
+{"kind":"textbox","id":"sh/uxc7q5o7","slide":4,"text":"低库存","textPreview":"低库存","textChars":3,"textLines":1,"bbox":[680,274,170,22]}
+{"kind":"textbox","id":"sh/y9sr258z","slide":4,"text":"4 个 SKU","textPreview":"4 个 SKU","textChars":7,"textLines":1,"bbox":[850,272,270,30]}
+{"kind":"shape","id":"sh/zal8vqpk","slide":4,"bbox":[650,348,500,66]}
+{"kind":"shape","id":"sh/kvu94vq5","slide":4,"bbox":[650,348,8,66]}
+{"kind":"textbox","id":"sh/lw3ax07q","slide":4,"text":"延期项目","textPreview":"延期项目","textChars":4,"textLines":1,"bbox":[680,358,170,22]}
+{"kind":"textbox","id":"sh/mxcr658b","slide":4,"text":"2 个","textPreview":"2 个","textChars":3,"textLines":1,"bbox":[850,356,270,30]}
+{"kind":"shape","id":"sh/7ylszapw","slide":4,"bbox":[650,432,500,66]}
+{"kind":"shape","id":"sh/8zu98fq1","slide":4,"bbox":[650,432,8,66]}
+{"kind":"textbox","id":"sh/903a1k7m","slide":4,"text":"SLA 风险","textPreview":"SLA 风险","textChars":6,"textLines":1,"bbox":[680,442,170,22]}
+{"kind":"textbox","id":"sh/u1crap87","slide":4,"text":"3 张 · 1 张超时","textPreview":"3 张 · 1 张超时","textChars":11,"textLines":1,"bbox":[850,440,270,30]}
+{"kind":"shape","id":"sh/v25s3aps","slide":4,"bbox":[650,516,500,66]}
+{"kind":"shape","id":"sh/5w7utoru","slide":4,"bbox":[650,516,8,66]}
+{"kind":"textbox","id":"sh/4vyt0ja9","slide":4,"text":"超期未跟进","textPreview":"超期未跟进","textChars":5,"textLines":1,"bbox":[680,526,170,22]}
+{"kind":"textbox","id":"sh/jupcre94","slide":4,"text":"6 家 · ¥468,000","textPreview":"6 家 · ¥468,000","textChars":14,"textLines":1,"bbox":[850,524,270,30]}
+{"kind":"textbox","id":"sh/itgby9sj","slide":4,"text":"星海智能设备有限公司 · 演示数据 · 基准日 2026-08-30","textPreview":"星海智能设备有限公司 · 演示数据 · 基准日 2026-08-30","textChars":34,"textLines":1,"bbox":[650,618,500,18]}
+{"kind":"textbox","id":"sh/t07uxor6","slide":4,"text":"星敏 AI ERP · erp.starmin.cn","textPreview":"星敏 AI ERP · erp.starmin.cn","textChars":26,"textLines":1,"bbox":[70,688,300,16]}
+{"kind":"textbox","id":"sh/szyd4jal","slide":4,"text":"4 / 13","textPreview":"4 / 13","textChars":6,"textLines":1,"bbox":[1120,688,90,16]}
+{"kind":"notes","id":"nt/danxfx","slide":4,"text":"演示问题：公司今天有什么需要我注意的？强调跨模块汇总、数据基准时间和来源下钻。\n\n[Sources]\n- X:/Work/xm-im-erp-pm/docs/Demo方案/README.md\n- X:/Work/xm-im-erp-pm/docs/Demo方案/02-Demo造数规则与数据字典.md"}
+{"kind":"slide","id":"sl/57hhai","slide":5,"title":"判断有口径","textShapes":27}
+{"kind":"textbox","id":"sh/4z6l8ni1","slide":5,"text":"判断有口径","textPreview":"判断有口径","textChars":5,"textLines":1,"bbox":[70,34,500,24]}
+{"kind":"textbox","id":"sh/3yxkzi1w","slide":5,"text":"“账面有货”不等于“现在能卖”","textPreview":"“账面有货”不等于“现在能卖”","textChars":15,"textLines":1,"bbox":[70,66,1060,68]}
+{"kind":"textbox","id":"sh/ixo36d0b","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1170,46,44,24]}
+{"kind":"shape","id":"sh/d4z25sjy","slide":5,"bbox":[70,145,74,5]}
+{"kind":"shape","id":"sh/s3qlcnid","slide":5,"bbox":[72,205,176,150]}
+{"kind":"textbox","id":"sh/r2hk321s","slide":5,"text":"22","textPreview":"22","textChars":2,"textLines":1,"bbox":[90,224,140,60]}
+{"kind":"textbox","id":"sh/q1o3ax07","slide":5,"text":"账面库存","textPreview":"账面库存","textChars":4,"textLines":1,"bbox":[90,292,140,28]}
+{"kind":"textbox","id":"sh/t8v2t8je","slide":5,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[256,250,36,44]}
+{"kind":"shape","id":"sh/87ml03i9","slide":5,"bbox":[302,205,176,150]}
+{"kind":"textbox","id":"sh/2hgva9sj","slide":5,"text":"−6","textPreview":"−6","textChars":2,"textLines":1,"bbox":[320,224,140,60]}
+{"kind":"textbox","id":"sh/3i9c3e94","slide":5,"text":"销售预留","textPreview":"销售预留","textChars":4,"textLines":1,"bbox":[320,292,140,28]}
+{"kind":"textbox","id":"sh/4jidcjap","slide":5,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[486,250,36,44]}
+{"kind":"shape","id":"sh/pkru5oru","slide":5,"bbox":[532,205,176,150]}
+{"kind":"textbox","id":"sh/ql0vetsf","slide":5,"text":"−2","textPreview":"−2","textChars":2,"textLines":1,"bbox":[550,224,140,60]}
+{"kind":"textbox","id":"sh/rm9c7y90","slide":5,"text":"项目预留","textPreview":"项目预留","textChars":4,"textLines":1,"bbox":[550,292,140,28]}
+{"kind":"textbox","id":"sh/cnidg3al","slide":5,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[716,250,36,44]}
+{"kind":"shape","id":"sh/doru9or6","slide":5,"bbox":[762,205,176,150]}
+{"kind":"textbox","id":"sh/epkvitsr","slide":5,"text":"14","textPreview":"14","textChars":2,"textLines":1,"bbox":[780,224,140,60]}
+{"kind":"textbox","id":"sh/zqtcby9c","slide":5,"text":"当前可用","textPreview":"当前可用","textChars":4,"textLines":1,"bbox":[780,292,140,28]}
+{"kind":"shape","id":"sh/betczyp4","slide":5,"bbox":[1000,205,210,150]}
+{"kind":"textbox","id":"sh/atkb6doz","slide":5,"text":"约 4 天","textPreview":"约 4 天","textChars":5,"textLines":1,"bbox":[1020,225,170,54]}
+{"kind":"textbox","id":"sh/xgvu187a","slide":5,"text":"预计耗尽","textPreview":"预计耗尽","textChars":4,"textLines":1,"bbox":[1020,292,170,26]}
+{"kind":"shape","id":"sh/wf2t836p","slide":5,"bbox":[72,414,1136,132]}
+{"kind":"textbox","id":"sh/nqtcvyp8","slide":5,"text":"105 箱","textPreview":"105 箱","textChars":5,"textLines":1,"bbox":[104,438,190,38]}
+{"kind":"textbox","id":"sh/mpkb2t8n","slide":5,"text":"近 30 天销量","textPreview":"近 30 天销量","textChars":8,"textLines":1,"bbox":[104,478,190,24]}
+{"kind":"textbox","id":"sh/9sbux87e","slide":5,"text":"3.5 箱","textPreview":"3.5 箱","textChars":5,"textLines":1,"bbox":[340,438,190,38]}
+{"kind":"textbox","id":"sh/or2t436t","slide":5,"text":"日均销量","textPreview":"日均销量","textChars":4,"textLines":1,"bbox":[340,478,190,24]}
+{"kind":"textbox","id":"sh/zm9srepw","slide":5,"text":"9 天","textPreview":"9 天","textChars":3,"textLines":1,"bbox":[576,438,190,38]}
+{"kind":"textbox","id":"sh/el0byt8r","slide":5,"text":"采购提前期","textPreview":"采购提前期","textChars":5,"textLines":1,"bbox":[576,478,190,24]}
+{"kind":"textbox","id":"sh/4fehcvid","slide":5,"text":"60 箱","textPreview":"60 箱","textChars":4,"textLines":1,"bbox":[812,438,190,38]}
+{"kind":"textbox","id":"sh/5gnil0ji","slide":5,"text":"建议采购","textPreview":"建议采购","textChars":4,"textLines":1,"bbox":[812,478,190,24]}
+{"kind":"textbox","id":"sh/idwzalk7","slide":5,"text":"结论 → 计算口径 → 来源明细 → 下一步建议","textPreview":"结论 → 计算口径 → 来源明细 → 下一步建议","textChars":24,"textLines":1,"bbox":[72,590,1136,32]}
+{"kind":"textbox","id":"sh/je50jq1s","slide":5,"text":"星敏 AI ERP · erp.starmin.cn","textPreview":"星敏 AI ERP · erp.starmin.cn","textChars":26,"textLines":1,"bbox":[70,688,300,16]}
+{"kind":"textbox","id":"sh/sjehgvi9","slide":5,"text":"5 / 13","textPreview":"5 / 13","textChars":6,"textLines":1,"bbox":[1120,688,90,16]}
+{"kind":"notes","id":"nt/57hhai","slide":5,"text":"用 XM-ABS-WHITE 解释账面、预留、可用、销量、耗尽天数与采购提前期的关系。\n\n[Sources]\n- X:/Work/xm-im-erp-pm/docs/Demo方案/02-Demo造数规则与数据字典.md"}
+{"kind":"slide","id":"sl/r1sw17","slide":6,"title":"从回答到行动","textShapes":19}
+{"kind":"textbox","id":"sh/jy1szylg","slide":6,"text":"从回答到行动","textPreview":"从回答到行动","textChars":6,"textLines":1,"bbox":[70,34,500,24]}
+{"kind":"textbox","id":"sh/4za98321","slide":6,"text":"AI 先查清对象，再让员工确认下一步","textPreview":"AI 先查清对象，再让员工确认下一步","textChars":18,"textLines":1,"bbox":[70,66,1060,68]}
+{"kind":"textbox","id":"sh/503a1836","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1170,46,44,24]}
+{"kind":"shape","id":"sh/61cradkr","slide":6,"bbox":[70,145,74,5]}
+{"kind":"textbox","id":"sh/r2ls3ilc","slide":6,"text":"“哪些客户超过 15 天没跟进，而且开放商机大于 5 万？”","textPreview":"“哪些客户超过 15 天没跟进，而且开放商机大于 5 万？”","textChars":30,"textLines":1,"bbox":[95,184,1090,46]}
+{"kind":"shape","id":"sh/s3u9cn2x","slide":6,"bbox":[290,348,72,5]}
+{"kind":"shape","id":"sh/to3a583i","slide":6,"bbox":[70,275,235,176]}
+{"kind":"textbox","id":"sh/m58ry9kn","slide":6,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[92,294,54,34]}
+{"kind":"textbox","id":"sh/76h8rel8","slide":6,"text":"查询对象","textPreview":"查询对象","textChars":4,"textLines":1,"bbox":[92,336,190,34]}
+{"kind":"textbox","id":"sh/7eh8zuxc","slide":6,"text":"6 家客户\n商机合计 ¥468,000","textPreview":"6 家客户 | 商机合计 ¥468,000","textChars":19,"textLines":2,"bbox":[92,382,190,54]}
+{"kind":"shape","id":"sh/md87qpwr","slide":6,"bbox":[582,348,72,5]}
+{"kind":"shape","id":"sh/9gjq14fi","slide":6,"bbox":[362,275,235,176]}
+{"kind":"textbox","id":"sh/8fa9szex","slide":6,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[384,294,54,34]}
+{"kind":"textbox","id":"sh/zah8vax0","slide":6,"text":"解释规则","textPreview":"解释规则","textChars":4,"textLines":1,"bbox":[384,336,190,34]}
+{"kind":"textbox","id":"sh/y987m5wv","slide":6,"text":"未跟进天数\n开放商机金额","textPreview":"未跟进天数 | 开放商机金额","textChars":12,"textLines":2,"bbox":[384,382,190,54]}
+{"kind":"shape","id":"sh/lczqxkf6","slide":6,"bbox":[874,348,72,5]}
+{"kind":"shape","id":"sh/kbqpofel","slide":6,"bbox":[654,275,235,176]}
+{"kind":"textbox","id":"sh/bmx8rax4","slide":6,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[676,294,54,34]}
+{"kind":"textbox","id":"sh/alo7i5wj","slide":6,"text":"预览影响","textPreview":"预览影响","textChars":4,"textLines":1,"bbox":[676,336,190,34]}
+{"kind":"textbox","id":"sh/ehoru50b","slide":6,"text":"负责人 · 日期\n任务内容","textPreview":"负责人 · 日期 | 任务内容","textChars":13,"textLines":2,"bbox":[676,382,190,54]}
+{"kind":"shape","id":"sh/fix83ahw","slide":6,"bbox":[946,275,235,176]}
+{"kind":"textbox","id":"sh/0j69wfih","slide":6,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[968,294,54,34]}
+{"kind":"textbox","id":"sh/1kfq50z2","slide":6,"text":"员工确认","textPreview":"员工确认","textChars":4,"textLines":1,"bbox":[968,336,190,34]}
+{"kind":"textbox","id":"sh/2lory50n","slide":6,"text":"修改 / 放弃 / 创建","textPreview":"修改 / 放弃 / 创建","textChars":12,"textLines":1,"bbox":[968,382,190,54]}
+{"kind":"shape","id":"sh/n6xs7ah8","slide":6,"bbox":[205,510,870,76]}
+{"kind":"textbox","id":"sh/o7690fid","slide":6,"text":"AI 负责查询、整理和准备动作；员工负责判断、确认和对外沟通。","textPreview":"AI 负责查询、整理和准备动作；员工负责判断、确认和对外沟通。","textChars":31,"textLines":1,"bbox":[236,529,808,38]}
+{"kind":"textbox","id":"sh/p8za9kzy","slide":6,"text":"星敏 AI ERP · erp.starmin.cn","textPreview":"星敏 AI ERP · erp.starmin.cn","textChars":26,"textLines":1,"bbox":[70,688,300,16]}
+{"kind":"textbox","id":"sh/a98r2p0j","slide":6,"text":"6 / 13","textPreview":"6 / 13","textChars":6,"textLines":1,"bbox":[1120,688,90,16]}
+{"kind":"notes","id":"nt/r1sw17","slide":6,"text":"在现场停在任务预览页，强调不会未经确认直接创建正式任务或对外发消息。\n\n[Sources]\n- X:/Work/xm-im-erp-pm/docs/销售与营销/10-销售PPT逐页完整内容稿.md\n- X:/Work/xm-im-erp-pm/docs/Demo方案/02-Demo造数规则与数据字典.md"}
+{"kind":"slide","id":"sl/z03k9p","slide":7,"title":"开放 AI 连接","textShapes":18}
+{"kind":"textbox","id":"sh/hgjat4z2","slide":7,"text":"开放 AI 连接","textPreview":"开放 AI 连接","textChars":8,"textLines":1,"bbox":[70,34,500,24]}
+{"kind":"textbox","id":"sh/udsripgb","slide":7,"text":"员工继续使用熟悉的 AI，业务仍然回到同一套 ERP","textPreview":"员工继续使用熟悉的 AI，业务仍然回到同一套 ERP","textChars":26,"textLines":1,"bbox":[70,66,1060,68]}
+{"kind":"textbox","id":"sh/ve1sruhw","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1170,46,44,24]}
+{"kind":"shape","id":"sh/8rq9gfyl","slide":7,"bbox":[70,145,74,5]}
+{"kind":"textbox","id":"sh/tczapkz6","slide":7,"text":"OpenClaw / 龙虾","textPreview":"OpenClaw / 龙虾","textChars":13,"textLines":1,"bbox":[72,183,300,30]}
+{"kind":"textbox","id":"sh/6p8repgf","slide":7,"text":"WorkBuddy","textPreview":"WorkBuddy","textChars":9,"textLines":1,"bbox":[72,224,300,30]}
+{"kind":"textbox","id":"sh/7qhsnah0","slide":7,"text":"DeepSeek Harness","textPreview":"DeepSeek Harness","textChars":16,"textLines":1,"bbox":[72,265,300,30]}
+{"kind":"textbox","id":"sh/s7utsjyp","slide":7,"text":"豆包 · Dify · 企业自建 AI","textPreview":"豆包 · Dify · 企业自建 AI","textChars":19,"textLines":1,"bbox":[72,306,390,30]}
+{"kind":"shape","id":"sh/d83a1oza","slide":7,"bbox":[72,374,34,34]}
+{"kind":"textbox","id":"sh/l8bepszu","slide":7,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[72,374,34,34]}
+{"kind":"textbox","id":"sh/072dwni9","slide":7,"text":"员工描述或转发工作","textPreview":"员工描述或转发工作","textChars":9,"textLines":1,"bbox":[122,374,330,34]}
+{"kind":"shape","id":"sh/z6twniho","slide":7,"bbox":[72,428,34,34]}
+{"kind":"textbox","id":"sh/y5kvud0j","slide":7,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[72,428,34,34]}
+{"kind":"textbox","id":"sh/d4rel8zy","slide":7,"text":"AI 查询 ERP 并整理","textPreview":"AI 查询 ERP 并整理","textChars":13,"textLines":1,"bbox":[122,428,330,34]}
+{"kind":"shape","id":"sh/c3ids3id","slide":7,"bbox":[72,482,34,34]}
+{"kind":"textbox","id":"sh/b29wjihs","slide":7,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[72,482,34,34]}
+{"kind":"textbox","id":"sh/q10vqd07","slide":7,"text":"员工确认回复或动作","textPreview":"员工确认回复或动作","textChars":9,"textLines":1,"bbox":[122,482,330,34]}
+{"kind":"shape","id":"sh/x0vexcz2","slide":7,"bbox":[72,536,34,34]}
+{"kind":"textbox","id":"sh/wzmd47ih","slide":7,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[72,536,34,34]}
+{"kind":"textbox","id":"sh/gfepgfa5","slide":7,"text":"业务数据提交到 ERP","textPreview":"业务数据提交到 ERP","textChars":11,"textLines":1,"bbox":[122,536,330,34]}
+{"kind":"shape","id":"sh/edc7e5sz","slide":7,"bbox":[530,585,640,50]}
+{"kind":"textbox","id":"sh/fe5onatk","slide":7,"text":"微信里与 AI 沟通的是企业员工；客户不直接操作 ERP。","textPreview":"微信里与 AI 沟通的是企业员工；客户不直接操作 ERP。","textChars":29,"textLines":1,"bbox":[550,595,600,30]}
+{"kind":"textbox","id":"sh/srupcvat","slide":7,"text":"星敏 AI ERP · erp.starmin.cn","textPreview":"星敏 AI ERP · erp.starmin.cn","textChars":26,"textLines":1,"bbox":[70,688,300,16]}
+{"kind":"textbox","id":"sh/tc36l0be","slide":7,"text":"7 / 13","textPreview":"7 / 13","textChars":6,"textLines":1,"bbox":[1120,688,90,16]}
+{"kind":"image","id":"im/i18bmhkr","slide":7,"name":"","geometry":"roundRect","alt":"多位员工使用不同 AI 助手并将业务数据汇入星敏 AI ERP","bbox":[500,165,700,440]}
+{"kind":"notes","id":"nt/z03k9p","slide":7,"text":"讲销售示例：销售把客户询价转给 OpenClaw，AI 查询价格与可用库存，销售确认回复，并把记录提交 ERP。\n\n[Sources]\n- X:/Work/xm-im-erp-pm/docs/销售与营销/07-员工AI接入与OpenClaw销售说明.md\n- X:/Work/xm-im-erp-pm/docs/销售与营销/assets/ppt/employee-ai-to-erp.png (built-in image_gen)"}
+{"kind":"slide","id":"sl/u1cjx8","slide":8,"title":"优先服务范围","textShapes":14}
+{"kind":"textbox","id":"sh/bmhcn2t4","slide":8,"text":"优先服务范围","textPreview":"优先服务范围","textChars":6,"textLines":1,"bbox":[70,34,500,24]}
+{"kind":"textbox","id":"sh/cnqdg7ap","slide":8,"text":"最适合有连续业务链、跨部门协同压力的企业","textPreview":"最适合有连续业务链、跨部门协同压力的企业","textChars":20,"textLines":1,"bbox":[70,66,1060,68]}
+{"kind":"textbox","id":"sh/xozupcba","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1170,46,44,24]}
+{"kind":"shape","id":"sh/2xobaxsn","slide":8,"bbox":[70,145,74,5]}
+{"kind":"textbox","id":"sh/ozqtcnad","slide":8,"text":"贸易企业","textPreview":"贸易企业","textChars":4,"textLines":1,"bbox":[72,182,350,34]}
+{"kind":"textbox","id":"sh/p0zulsby","slide":8,"text":"客户 · 采购 · 库存 · 应收","textPreview":"客户 · 采购 · 库存 · 应收","textChars":17,"textLines":1,"bbox":[72,222,350,28]}
+{"kind":"shape","id":"sh/etob6dsb","slide":8,"bbox":[72,264,330,1]}
+{"kind":"textbox","id":"sh/fuxcfitw","slide":8,"text":"外贸企业","textPreview":"外贸企业","textChars":4,"textLines":1,"bbox":[72,286,350,34]}
+{"kind":"textbox","id":"sh/7exg3et8","slide":8,"text":"海外客户 · 多币种 · 装箱","textPreview":"海外客户 · 多币种 · 装箱","textChars":15,"textLines":1,"bbox":[72,326,350,28]}
+{"kind":"shape","id":"sh/6dozutsn","slide":8,"bbox":[72,368,330,1]}
+{"kind":"textbox","id":"sh/tgfi5obe","slide":8,"text":"设备销售","textPreview":"设备销售","textChars":4,"textLines":1,"bbox":[72,390,350,34]}
+{"kind":"textbox","id":"sh/8f6hwjat","slide":8,"text":"设备 · 项目 · 验收 · 售后","textPreview":"设备 · 项目 · 验收 · 售后","textChars":17,"textLines":1,"bbox":[72,430,350,28]}
+{"kind":"shape","id":"sh/v2x07y9k","slide":8,"bbox":[72,472,330,1]}
+{"kind":"textbox","id":"sh/u1ozytsz","slide":8,"text":"汽配 / 工业品","textPreview":"汽配 / 工业品","textChars":8,"textLines":1,"bbox":[72,494,350,34]}
+{"kind":"textbox","id":"sh/h4zi98ra","slide":8,"text":"多 SKU · 频繁报价 · 采购库存","textPreview":"多 SKU · 频繁报价 · 采购库存","textChars":19,"textLines":1,"bbox":[72,534,350,28]}
+{"kind":"shape","id":"sh/g3qh03a5","slide":8,"bbox":[72,604,340,42]}
+{"kind":"textbox","id":"sh/b6dgvut0","slide":8,"text":"10～100 人 · 可从一段流程开始","textPreview":"10～100 人 · 可从一段流程开始","textChars":19,"textLines":1,"bbox":[88,611,308,28]}
+{"kind":"textbox","id":"sh/a54zmpsf","slide":8,"text":"星敏 AI ERP · erp.starmin.cn","textPreview":"星敏 AI ERP · erp.starmin.cn","textChars":26,"textLines":1,"bbox":[70,688,300,16]}
+{"kind":"textbox","id":"sh/edcbq1gf","slide":8,"text":"8 / 13","textPreview":"8 / 13","textChars":6,"textLines":1,"bbox":[1120,688,90,16]}
+{"kind":"image","id":"im/qtkvqlc3","slide":8,"name":"","geometry":"roundRect","alt":"贸易、仓库、设备安装和售后服务组成的企业运营场景","bbox":[480,154,740,490]}
+{"kind":"notes","id":"nt/u1cjx8","slide":8,"text":"不宣传适合所有企业。优先判断是否存在客户到回款链路、多岗位协作与数据分散问题。\n\n[Sources]\n- X:/Work/xm-im-erp-pm/docs/销售与营销/10-销售PPT逐页完整内容稿.md\n- X:/Work/xm-im-erp-pm/docs/销售与营销/assets/ppt/trade-equipment-company.png (built-in image_gen)"}
+{"kind":"slide","id":"sl/adcuhk","slide":9,"title":"7～30 天试用","textShapes":19}
+{"kind":"textbox","id":"sh/2p07mps7","slide":9,"text":"7～30 天试用","textPreview":"7～30 天试用","textChars":8,"textLines":1,"bbox":[70,34,500,24]}
+{"kind":"textbox","id":"sh/psrqx4bi","slide":9,"text":"不用一次推翻现有系统，先验证一条真实业务链","textPreview":"不用一次推翻现有系统，先验证一条真实业务链","textChars":21,"textLines":1,"bbox":[70,66,1060,68]}
+{"kind":"textbox","id":"sh/4ripozad","slide":9,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1170,46,44,24]}
+{"kind":"shape","id":"sh/fmp8rutg","slide":9,"bbox":[70,145,74,5]}
+{"kind":"textbox","id":"sh/u1g7ipsv","slide":9,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[70,188,90,48]}
+{"kind":"shape","id":"sh/ho7qtkbm","slide":9,"bbox":[70,246,235,6]}
+{"kind":"textbox","id":"sh/gnypkfa1","slide":9,"text":"选择场景","textPreview":"选择场景","textChars":4,"textLines":1,"bbox":[70,278,235,36]}
+{"kind":"textbox","id":"sh/zit83et0","slide":9,"text":"跟进、订单库存、应收、项目或员工 AI","textPreview":"跟进、订单库存、应收、项目或员工 AI","textChars":19,"textLines":1,"bbox":[70,324,235,78]}
+{"kind":"textbox","id":"sh/yxkru9sf","slide":9,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[362,188,90,48]}
+{"kind":"shape","id":"sh/wb61g7u5","slide":9,"bbox":[362,246,235,6]}
+{"kind":"textbox","id":"sh/xczi9cvq","slide":9,"text":"准备数据","textPreview":"准备数据","textChars":4,"textLines":1,"bbox":[362,278,235,36]}
+{"kind":"textbox","id":"sh/a9ojehcz","slide":9,"text":"脱敏客户、商品、库存或业务样例","textPreview":"脱敏客户、商品、库存或业务样例","textChars":15,"textLines":1,"bbox":[362,324,235,78]}
+{"kind":"textbox","id":"sh/vax07mdk","slide":9,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[654,188,90,48]}
+{"kind":"shape","id":"sh/o761c7e9","slide":9,"bbox":[654,246,235,6]}
+{"kind":"textbox","id":"sh/98fi5cvu","slide":9,"text":"配置组织","textPreview":"配置组织","textChars":4,"textLines":1,"bbox":[654,278,235,36]}
+{"kind":"textbox","id":"sh/m5ojaxw3","slide":9,"text":"参与员工、角色、数据范围和口径","textPreview":"参与员工、角色、数据范围和口径","textChars":15,"textLines":1,"bbox":[654,324,235,78]}
+{"kind":"textbox","id":"sh/n6x032do","slide":9,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[946,188,90,48]}
+{"kind":"shape","id":"sh/0jm18nex","slide":9,"bbox":[946,246,235,6]}
+{"kind":"textbox","id":"sh/1kvi1svi","slide":9,"text":"验证结果","textPreview":"验证结果","textChars":4,"textLines":1,"bbox":[946,278,235,36]}
+{"kind":"textbox","id":"sh/honqpkja","slide":9,"text":"真实业务运行，并按成功指标复盘","textPreview":"真实业务运行，并按成功指标复盘","textChars":15,"textLines":1,"bbox":[946,324,235,78]}
+{"kind":"shape","id":"sh/gnupgz2p","slide":9,"bbox":[130,470,1020,124]}
+{"kind":"textbox","id":"sh/f2l8nu14","slide":9,"text":"首周成功示例","textPreview":"首周成功示例","textChars":6,"textLines":1,"bbox":[164,494,190,28]}
+{"kind":"textbox","id":"sh/u1c7epkj","slide":9,"text":"导入 100 个客户和 50 个 SKU，由 3 名销售完成 20 条真实跟进，\n老板通过 AI 查到本周需要跟进的客户。","textPreview":"导入 100 个客户和 50 个 SKU，由 3 名销售完成 20 条真实跟进， | 老板通过 AI 查到本周需要跟进的客户。","textChars":61,"textLines":2,"bbox":[164,529,930,50]}
+{"kind":"textbox","id":"sh/t03qlkjy","slide":9,"text":"星敏 AI ERP · erp.starmin.cn","textPreview":"星敏 AI ERP · erp.starmin.cn","textChars":26,"textLines":1,"bbox":[70,688,300,16]}
+{"kind":"textbox","id":"sh/szupcf2d","slide":9,"text":"9 / 13","textPreview":"9 / 13","textChars":6,"textLines":1,"bbox":[1120,688,90,16]}
+{"kind":"notes","id":"nt/adcuhk","slide":9,"text":"强调试用不是开空账号。双方先定义场景、数据、参与人和可验证成功事件。\n\n[Sources]\n- X:/Work/xm-im-erp-pm/docs/销售与营销/03-首批客户访谈与试用验收清单.md"}
+{"kind":"slide","id":"sl/gynfkf","slide":10,"title":"安全与可信","textShapes":25}
+{"kind":"textbox","id":"sh/d87e1c7u","slide":10,"text":"安全与可信","textPreview":"安全与可信","textChars":5,"textLines":1,"bbox":[70,34,500,24]}
+{"kind":"textbox","id":"sh/qlgvqx83","slide":10,"text":"AI 更方便，也不能绕过企业原有管理边界","textPreview":"AI 更方便，也不能绕过企业原有管理边界","textChars":20,"textLines":1,"bbox":[70,66,1060,68]}
+{"kind":"textbox","id":"sh/bmpwz2po","slide":10,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1170,46,44,24]}
+{"kind":"shape","id":"sh/0bidwrq5","slide":10,"bbox":[70,145,74,5]}
+{"kind":"shape","id":"sh/lcre5c7q","slide":10,"bbox":[218,315,40,4]}
+{"kind":"shape","id":"sh/y90vuh8f","slide":10,"bbox":[52,230,166,176]}
+{"kind":"shape","id":"sh/za9w3mp0","slide":10,"bbox":[106,250,58,58]}
+{"kind":"textbox","id":"sh/gfedknq1","slide":10,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[106,250,58,58]}
+{"kind":"textbox","id":"sh/1gnuts7m","slide":10,"text":"员工账号","textPreview":"员工账号","textChars":4,"textLines":1,"bbox":[66,326,138,28]}
+{"kind":"textbox","id":"sh/147ahwrm","slide":10,"text":"身份与岗位","textPreview":"身份与岗位","textChars":5,"textLines":1,"bbox":[66,362,138,24]}
+{"kind":"shape","id":"sh/03yt8ba1","slide":10,"bbox":[420,315,40,4]}
+{"kind":"shape","id":"sh/f2psf69g","slide":10,"bbox":[254,230,166,176]}
+{"kind":"shape","id":"sh/e1gb61sv","slide":10,"bbox":[308,250,58,58]}
+{"kind":"textbox","id":"sh/9s7ulgri","slide":10,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[308,250,58,58]}
+{"kind":"textbox","id":"sh/orytcbad","slide":10,"text":"可见数据","textPreview":"可见数据","textChars":4,"textLines":1,"bbox":[268,326,138,28]}
+{"kind":"textbox","id":"sh/n6psj69s","slide":10,"text":"角色与范围","textPreview":"角色与范围","textChars":5,"textLines":1,"bbox":[268,362,138,24]}
+{"kind":"shape","id":"sh/25gba1s7","slide":10,"bbox":[622,315,40,4]}
+{"kind":"shape","id":"sh/xwrupgru","slide":10,"bbox":[456,230,166,176]}
+{"kind":"shape","id":"sh/wvitgva9","slide":10,"bbox":[510,250,58,58]}
+{"kind":"textbox","id":"sh/gba58jmh","slide":10,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[510,250,58,58]}
+{"kind":"textbox","id":"sh/hcjm1o32","slide":10,"text":"AI 查询","textPreview":"AI 查询","textChars":5,"textLines":1,"bbox":[470,326,138,28]}
+{"kind":"textbox","id":"sh/u98n6t4r","slide":10,"text":"时间与来源","textPreview":"时间与来源","textChars":5,"textLines":1,"bbox":[470,362,138,24]}
+{"kind":"shape","id":"sh/va14zylc","slide":10,"bbox":[824,315,40,4]}
+{"kind":"shape","id":"sh/4fa5c3mt","slide":10,"bbox":[658,230,166,176]}
+{"kind":"shape","id":"sh/5gjm583e","slide":10,"bbox":[712,250,58,58]}
+{"kind":"textbox","id":"sh/idsnat4n","slide":10,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[712,250,58,58]}
+{"kind":"textbox","id":"sh/3e143yl8","slide":10,"text":"草稿预览","textPreview":"草稿预览","textChars":4,"textLines":1,"bbox":[672,326,138,28]}
+{"kind":"textbox","id":"sh/kjql0zmp","slide":10,"text":"影响对象","textPreview":"影响对象","textChars":4,"textLines":1,"bbox":[672,362,138,24]}
+{"kind":"shape","id":"sh/lkzmt43u","slide":10,"bbox":[1026,315,40,4]}
+{"kind":"shape","id":"sh/ne58z25c","slide":10,"bbox":[860,230,166,176]}
+{"kind":"shape","id":"sh/2dw76ho7","slide":10,"bbox":[914,250,58,58]}
+{"kind":"textbox","id":"sh/p0nq1cni","slide":10,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[914,250,58,58]}
+{"kind":"textbox","id":"sh/ozep87mx","slide":10,"text":"员工确认","textPreview":"员工确认","textChars":4,"textLines":1,"bbox":[874,326,138,28]}
+{"kind":"textbox","id":"sh/fa5ov25g","slide":10,"text":"修改或放弃","textPreview":"修改或放弃","textChars":5,"textLines":1,"bbox":[874,362,138,24]}
+{"kind":"shape","id":"sh/e9w72xov","slide":10,"bbox":[1062,230,166,176]}
+{"kind":"shape","id":"sh/1cn6xcnm","slide":10,"bbox":[1116,250,58,58]}
+{"kind":"textbox","id":"sh/0bep4761","slide":10,"text":"6","textPreview":"6","textChars":1,"textLines":1,"bbox":[1116,250,58,58]}
+{"kind":"textbox","id":"sh/r6lori5k","slide":10,"text":"审计记录","textPreview":"审计记录","textChars":4,"textLines":1,"bbox":[1076,326,138,28]}
+{"kind":"textbox","id":"sh/q5c7yxoz","slide":10,"text":"可追溯","textPreview":"可追溯","textChars":3,"textLines":1,"bbox":[1076,362,138,24]}
+{"kind":"textbox","id":"sh/6dwb2lkj","slide":10,"text":"租户隔离 · 字段控制 · 来源下钻 · 写操作确认 · 备份与数据导出","textPreview":"租户隔离 · 字段控制 · 来源下钻 · 写操作确认 · 备份与数据导出","textChars":36,"textLines":1,"bbox":[70,480,1140,44]}
+{"kind":"textbox","id":"sh/7e5sbq14","slide":10,"text":"部署、模型、备份、接口和数据处理方式，在正式上线前按企业要求确认。","textPreview":"部署、模型、备份、接口和数据处理方式，在正式上线前按企业要求确认。","textChars":33,"textLines":1,"bbox":[160,548,960,34]}
+{"kind":"textbox","id":"sh/sfyt4v2p","slide":10,"text":"星敏 AI ERP · erp.starmin.cn","textPreview":"星敏 AI ERP · erp.starmin.cn","textChars":26,"textLines":1,"bbox":[70,688,300,16]}
+{"kind":"textbox","id":"sh/tg7ud0ju","slide":10,"text":"10 / 13","textPreview":"10 / 13","textChars":7,"textLines":1,"bbox":[1120,688,90,16]}
+{"kind":"notes","id":"nt/gynfkf","slide":10,"text":"不要展示未经验证的安全认证。只讲已具备或可按正式方案确认的租户、角色、来源、确认、审计、备份与导出能力。\n\n[Sources]\n- X:/Work/xm-im-erp-pm/docs/销售与营销/10-销售PPT逐页完整内容稿.md"}
+{"kind":"slide","id":"sl/kgafos","slide":11,"title":"套餐与实施","textShapes":16}
+{"kind":"textbox","id":"sh/re5s7it0","slide":11,"text":"套餐与实施","textPreview":"套餐与实施","textChars":5,"textLines":1,"bbox":[70,34,500,24]}
+{"kind":"textbox","id":"sh/cfe9gnul","slide":11,"text":"从统一业务开始，再按 AI 和实施范围逐步扩展","textPreview":"从统一业务开始，再按 AI 和实施范围逐步扩展","textChars":23,"textLines":1,"bbox":[70,66,1060,68]}
+{"kind":"textbox","id":"sh/dg7a9sb6","slide":11,"text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[1170,46,44,24]}
+{"kind":"shape","id":"sh/ehgrixcr","slide":11,"bbox":[70,145,74,5]}
+{"kind":"shape","id":"sh/zipsb2tw","slide":11,"bbox":[70,185,340,330]}
+{"kind":"textbox","id":"sh/0jy9k7uh","slide":11,"text":"标准版","textPreview":"标准版","textChars":3,"textLines":1,"bbox":[98,218,284,34]}
+{"kind":"textbox","id":"sh/1k7adcb2","slide":11,"text":"¥3,800 / 年起","textPreview":"¥3,800 / 年起","textChars":11,"textLines":1,"bbox":[98,266,284,42]}
+{"kind":"textbox","id":"sh/ulcr6dc7","slide":11,"text":"CRM 与跟进\n报价、订单与采购\n库存与应收协同","textPreview":"CRM 与跟进 | 报价、订单与采购 | 库存与应收协同","textChars":24,"textLines":3,"bbox":[98,334,284,120]}
+{"kind":"shape","id":"sh/vml8zyds","slide":11,"bbox":[448,185,340,330]}
+{"kind":"shape","id":"sh/36pk72d0","slide":11,"bbox":[448,185,340,8]}
+{"kind":"textbox","id":"sh/25gjyxcf","slide":11,"text":"AI 专业版","textPreview":"AI 专业版","textChars":6,"textLines":1,"bbox":[476,218,284,34]}
+{"kind":"textbox","id":"sh/p8r29cvq","slide":11,"text":"¥6,800 / 年起","textPreview":"¥6,800 / 年起","textChars":11,"textLines":1,"bbox":[476,266,284,42]}
+{"kind":"textbox","id":"sh/47i107ul","slide":11,"text":"标准版全部能力\nAI 企业助手与经营分析\nAI 草稿、自动化、企微","textPreview":"标准版全部能力 | AI 企业助手与经营分析 | AI 草稿、自动化、企微","textChars":33,"textLines":3,"bbox":[476,334,284,120]}
+{"kind":"shape","id":"sh/fipk32do","slide":11,"bbox":[826,185,340,330]}
+{"kind":"textbox","id":"sh/uhgjuxc3","slide":11,"text":"企业版","textPreview":"企业版","textChars":3,"textLines":1,"bbox":[854,218,284,34]}
+{"kind":"textbox","id":"sh/h4725cvu","slide":11,"text":"¥12,800 / 年起","textPreview":"¥12,800 / 年起","textChars":12,"textLines":1,"bbox":[854,266,284,42]}
+{"kind":"textbox","id":"sh/g3y1w7u9","slide":11,"text":"AI 专业版全部能力\n项目、工单、高级权限\n开放 API / MCP 与 AI 连接","textPreview":"AI 专业版全部能力 | 项目、工单、高级权限 | 开放 API / MCP 与 AI 连接","textChars":42,"textLines":3,"bbox":[854,334,284,120]}
+{"kind":"shape","id":"sh/7e50zids","slide":11,"bbox":[70,552,1096,70]}
+{"kind":"textbox","id":"sh/6dwjqdc7","slide":11,"text":"私有部署：单独评估","textPreview":"私有部署：单独评估","textChars":9,"textLines":1,"bbox":[96,569,290,34]}
+{"kind":"textbox","id":"sh/a9w3idgz","slide":11,"text":"最终报价由用户数、模块、AI 用量、数据迁移、培训、第三方平台与专属开发范围决定。","textPreview":"最终报价由用户数、模块、AI 用量、数据迁移、培训、第三方平台与专属开发范围决定。","textChars":41,"textLines":1,"bbox":[390,569,744,34]}
+{"kind":"textbox","id":"sh/ba5kbixk","slide":11,"text":"星敏 AI ERP · erp.starmin.cn","textPreview":"星敏 AI ERP · erp.starmin.cn","textChars":26,"textLines":1,"bbox":[70,688,300,16]}
+{"kind":"textbox","id":"sh/wbelkne5","slide":11,"text":"11 / 13","textPreview":"11 / 13","textChars":7,"textLines":1,"bbox":[1120,688,90,16]}
+{"kind":"notes","id":"nt/kgafos","slide":11,"text":"价格均使用“起”。正式报价区分年度订阅和一次性实施，并明确 AI 额度、迁移、培训、接口与不包含内容。\n\n[Sources]\n- X:/Work/xm-im-erp-pm/docs/销售与营销/06-套餐报价与实施服务说明.md"}
+{"kind":"slide","id":"sl/qqj5cp","slide":12,"title":"下一步","textShapes":11}
+{"kind":"shape","id":"sh/qtofyx43","slide":12,"bbox":[810,0,470,720]}
+{"kind":"textbox","id":"sh/sv6x07m9","slide":12,"text":"下一步","textPreview":"下一步","textChars":3,"textLines":1,"bbox":[72,70,300,26]}
+{"kind":"textbox","id":"sh/fihgvm5k","slide":12,"text":"用一份脱敏数据，\n验证一个真实场景","textPreview":"用一份脱敏数据， | 验证一个真实场景","textChars":17,"textLines":2,"bbox":[72,122,620,124]}
+{"kind":"textbox","id":"sh/ehof2h4z","slide":12,"text":"进入 Demo","textPreview":"进入 Demo","textChars":7,"textLines":1,"bbox":[72,310,180,34]}
+{"kind":"textbox","id":"sh/1kzyxcnq","slide":12,"text":"直接体验经营问题、风险下钻和业务草稿","textPreview":"直接体验经营问题、风险下钻和业务草稿","textChars":18,"textLines":1,"bbox":[72,350,530,30]}
+{"kind":"textbox","id":"sh/0jqx47m5","slide":12,"text":"预约业务访谈","textPreview":"预约业务访谈","textChars":6,"textLines":1,"bbox":[72,414,220,34]}
+{"kind":"textbox","id":"sh/nmhgzm5w","slide":12,"text":"用 30 分钟选择最值得验证的一段流程","textPreview":"用 30 分钟选择最值得验证的一段流程","textChars":19,"textLines":1,"bbox":[72,454,530,30]}
+{"kind":"textbox","id":"sh/2l8f6h4b","slide":12,"text":"申请共创试用","textPreview":"申请共创试用","textChars":6,"textLines":1,"bbox":[72,518,220,34]}
+{"kind":"textbox","id":"sh/orix8fqh","slide":12,"text":"真实数据运行 7～30 天，用结果决定下一步","textPreview":"真实数据运行 7～30 天，用结果决定下一步","textChars":22,"textLines":1,"bbox":[72,558,530,30]}
+{"kind":"shape","id":"sh/9sbe1kr2","slide":12,"bbox":[72,620,440,50]}
+{"kind":"textbox","id":"sh/m50v6p8r","slide":12,"text":"erp.starmin.cn","textPreview":"erp.starmin.cn","textChars":14,"textLines":1,"bbox":[96,630,392,30]}
+{"kind":"textbox","id":"sh/nq9wzu9w","slide":12,"text":"星敏 AI ERP · erp.starmin.cn","textPreview":"星敏 AI ERP · erp.starmin.cn","textChars":26,"textLines":1,"bbox":[70,688,300,16]}
+{"kind":"textbox","id":"sh/wv2xczqt","slide":12,"text":"12 / 13","textPreview":"12 / 13","textChars":7,"textLines":1,"bbox":[1120,688,90,16]}
+{"kind":"image","id":"im/sru90ryl","slide":12,"name":"","geometry":"roundRect","alt":"企业员工通过微信 AI 查询 ERP 并准备回复和业务记录","bbox":[725,155,520,360]}
+{"kind":"notes","id":"nt/qqj5cp","slide":12,"text":"根据现场讨论直接提出一个具体试用场景，并确认客户负责人、星敏负责人和下一日期。\n\n[Sources]\n- X:/Work/xm-im-erp-pm/docs/销售与营销/10-销售PPT逐页完整内容稿.md\n- X:/Work/xm-im-erp-pm/docs/销售与营销/assets/ppt/wechat-ai-workflow.png (built-in image_gen)"}
+{"kind":"slide","id":"sl/758gse","slide":13,"title":"THANK YOU","textShapes":18}
+{"kind":"shape","id":"sh/5kf6h0nq","slide":13,"bbox":[0,0,520,720]}
+{"kind":"textbox","id":"sh/ixo7mlof","slide":13,"text":"THANK YOU","textPreview":"THANK YOU","textChars":9,"textLines":1,"bbox":[72,72,300,26]}
+{"kind":"textbox","id":"sh/jixofq50","slide":13,"text":"感谢您的时间","textPreview":"感谢您的时间","textChars":6,"textLines":1,"bbox":[72,128,380,70]}
+{"kind":"textbox","id":"sh/sn6psvmh","slide":13,"text":"期待与您一起，\n把真实业务连接起来，\n让每位员工都能用 AI 提升效率。","textPreview":"期待与您一起， | 把真实业务连接起来， | 让每位员工都能用 AI 提升效率。","textChars":36,"textLines":3,"bbox":[72,222,370,128]}
+{"kind":"shape","id":"sh/tof6l0n2","slide":13,"bbox":[72,394,376,2]}
+{"kind":"textbox","id":"sh/6lo7q54b","slide":13,"text":"系统实施顾问","textPreview":"系统实施顾问","textChars":6,"textLines":1,"bbox":[72,430,300,28]}
+{"kind":"textbox","id":"sh/rmxojq5w","slide":13,"text":"黄健敏  Armin Wong","textPreview":"黄健敏  Armin Wong","textChars":15,"textLines":1,"bbox":[72,466,360,42]}
+{"kind":"textbox","id":"sh/8rm5gb6d","slide":13,"text":"微信 / 手机号：18620588898","textPreview":"微信 / 手机号：18620588898","textChars":20,"textLines":1,"bbox":[72,522,380,32]}
+{"kind":"textbox","id":"sh/9sv69gni","slide":13,"text":"erp.starmin.cn","textPreview":"erp.starmin.cn","textChars":14,"textLines":1,"bbox":[72,578,300,30]}
+{"kind":"textbox","id":"sh/5g32h4ve","slide":13,"text":"保持联系，随时体验星敏 AI ERP","textPreview":"保持联系，随时体验星敏 AI ERP","textChars":18,"textLines":1,"bbox":[580,66,620,48]}
+{"kind":"textbox","id":"sh/kvu18zut","slide":13,"text":"扫码添加实施顾问，或直接访问产品官网。","textPreview":"扫码添加实施顾问，或直接访问产品官网。","textChars":19,"textLines":1,"bbox":[580,118,580,30]}
+{"kind":"shape","id":"sh/jul0fud8","slide":13,"bbox":[574,182,285,390]}
+{"kind":"textbox","id":"sh/tkn2l4va","slide":13,"text":"微信咨询","textPreview":"微信咨询","textChars":4,"textLines":1,"bbox":[606,450,220,34]}
+{"kind":"textbox","id":"sh/sje1czup","slide":13,"text":"添加系统实施顾问","textPreview":"添加系统实施顾问","textChars":8,"textLines":1,"bbox":[606,492,220,26]}
+{"kind":"textbox","id":"sh/ri5kjudk","slide":13,"text":"18620588898","textPreview":"18620588898","textChars":11,"textLines":1,"bbox":[606,526,220,26]}
+{"kind":"shape","id":"sh/6hwja9cz","slide":13,"bbox":[893,182,285,390]}
+{"kind":"textbox","id":"sh/gne1gju1","slide":13,"text":"访问官网","textPreview":"访问官网","textChars":4,"textLines":1,"bbox":[925,450,220,34]}
+{"kind":"textbox","id":"sh/0rmlcn2d","slide":13,"text":"了解产品并进入 Demo","textPreview":"了解产品并进入 Demo","textChars":12,"textLines":1,"bbox":[925,492,220,26]}
+{"kind":"textbox","id":"sh/1sfmls3i","slide":13,"text":"erp.starmin.cn","textPreview":"erp.starmin.cn","textChars":14,"textLines":1,"bbox":[925,526,220,26]}
+{"kind":"textbox","id":"sh/ep43adk7","slide":13,"text":"广州星敏智能科技有限公司","textPreview":"广州星敏智能科技有限公司","textChars":12,"textLines":1,"bbox":[580,628,430,24]}
+{"kind":"textbox","id":"sh/zqd4jils","slide":13,"text":"星敏 AI ERP · erp.starmin.cn","textPreview":"星敏 AI ERP · erp.starmin.cn","textChars":26,"textLines":1,"bbox":[70,688,300,16]}
+{"kind":"textbox","id":"sh/ov6lg729","slide":13,"text":"13 / 13","textPreview":"13 / 13","textChars":7,"textLines":1,"bbox":[1120,688,90,16]}
+{"kind":"image","id":"im/t4r61krq","slide":13,"name":"","geometry":"rect","alt":"黄健敏微信二维码","bbox":[609,215,215,215]}
+{"kind":"image","id":"im/a9wnyls7","slide":13,"name":"","geometry":"rect","alt":"星敏 AI ERP 官网二维码","bbox":[928,215,215,215]}
+{"kind":"notes","id":"nt/758gse","slide":13,"text":"结束时邀请客户扫码添加实施顾问，或进入官网体验。现场确认下一次沟通时间和拟验证的业务场景。\n\n[Sources]\n- User-provided WeChat QR code: contact-wechat-qr.png\n- User-provided website QR code: erp-website-qr.png\n- https://erp.starmin.cn/"}
